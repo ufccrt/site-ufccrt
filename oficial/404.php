@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="py-5">
           <div class="container layout_centro">
-            <div class="row sombraDivs">
+            <div class="row ">
               <div class="col-md-3 sombraDivMenuEsquerdo EspacamentoTopoMenuLateral">              
                   <div id="sidebar-primary" class="nav-link">
                       <?php dynamic_sidebar( 'menu_lateral' ); ?>

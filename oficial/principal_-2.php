@@ -19,7 +19,8 @@
               
               <?php
                 global $post;
-                $args = array( 'numberposts' => 3, 'cat' => 5, true );
+                $args = array( 'numberposts' => 3, 'cat' => 5;
+
                 $myposts = get_posts( $args );
                     foreach( $myposts as $post ) : ?>
                     <?php setup_postdata($post);?>

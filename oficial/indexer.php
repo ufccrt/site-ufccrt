@@ -20,7 +20,7 @@
             <div class="col-md-12 configMargemSlideShow novoSlideShowAdaptacoes">
               
               <?php 
-                  echo do_shortcode("[metaslider id=301]");
+                  //echo do_shortcode("[metaslider id=301]");
                   
               ?>
           
@@ -88,7 +88,7 @@
              
       <?php   if(is_front_page()){ 
 
-          include_once 'principal_2.php';
+          include_once 'principal_10.php';
 
       }else{?>
       
