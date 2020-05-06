@@ -38,7 +38,7 @@
               <?php
                 global $post;
                 $i = 0;
-                $args = array( 'numberposts' => 2, 'cat' => 5 );
+                $args = array( 'numberposts' => 2, 'cat' => 4 );
                 $myposts = get_posts( $args ); ?>
                 
                 <!-- <div class="ParteBannerDestaqueSecundario"> -->
