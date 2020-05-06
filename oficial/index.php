@@ -20,7 +20,7 @@
              
       <?php   if(is_front_page()){ 
 
-        include_once 'principal_2.php';
+        include_once 'principal_10.php';
 
       }else{?>
       
