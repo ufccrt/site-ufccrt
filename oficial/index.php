@@ -9,20 +9,9 @@
       
     }?>     
     
-    <?php 
-    
-    if(is_front_page()){
-    
-    ?>
-    <div class="container-fluid slide-home">
-        
-          <?php include_once 'principal_2.php'; ?>
-        
-     </div> 
-          <?php include_once 'principal_2.php'; ?>   
-    <?php }?>
+   
 
-    </div> 
+   
 <!--CORPO-->
 <div class="container">
   
@@ -31,7 +20,7 @@
              
       <?php   if(is_front_page()){ 
 
-          include_once 'principal_2.php';
+        include_once 'principal_2.php';
 
       }else{?>
       
