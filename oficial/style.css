@@ -10,6 +10,7 @@ License: CrateÃºs-UFC
 @import url('css/reset.css');
 @import url('css/rebuild.css');
 @import url('css/pgServidores.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 
 /* @import url('css/DispositivoGeral.css'); */
@@ -27,6 +28,11 @@ body {
   background-size: cover; 
   background-attachment: fixed;
   background-image: url('imgs/background.jpg');
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+p{
+
 }
 
 .wpcf7-submit{
@@ -44,8 +50,8 @@ body {
 }
 
 .wpcf7-submit:focus, .wpcf7-submit.focus {
-  -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5) !important;
-          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5) !important;
+  -webkit-: 0 0 0 2px rgba(2, 117, 216, 0.5) !important;
+          : 0 0 0 2px rgba(2, 117, 216, 0.5) !important;
 }
 
 .wpcf7-submit.disabled, .wpcf7-submit:disabled {
@@ -155,4 +161,241 @@ font-weight: normal;
 text-rendering: optimizeSpeed;
 color: #35373d;
 width: 98.4%;
+}
+
+/*reformulação 2020*/
+
+/*cabecalho*/
+header.container-fluid.row {
+  background: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+.container-fluid.acessibilidade {
+  background: #ffffff;
+  padding: 7px;
+  margin: 0;
+}
+.col-md-4.logo-campus {
+  
+  float: left;
+  height: 120px;
+}
+
+img.img-fluid.d-block.logo_margem {
+  max-width: 270px;
+  margin-top: 5px;
+  position: absolute;
+  left: -30px;
+}
+.col-md-8.busca-nav {
+  display: block;
+  float: left;
+  height: 120px;
+}
+.container-fluid.row.menu-principal {
+  background: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}nav.container {
+  border-bottom: #f9b00be0 2px solid;
+  padding: 5px 0;
+}
+input.form-control.mr-sm-2.iconePesquisaForm {
+  width: 100px;
+  transition: 0.3s;
+  display: block;
+  border-radius: 0;
+  border: none;
+  
+  position: absolute;
+  right: -10px;
+  top: 50px;
+}
+.MenuTopoAlteracao {
+  margin: 0 auto;
+  width: 100%;
+}
+ul#menu-nav-principal-2020 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.show > .dropdown-menu li {
+  font-size: 15px;
+}
+.MenuTopoAlteracao a:focus {
+  font-weight: bolder;
+}
+input.form-control.mr-sm-2.iconePesquisaForm:hover {
+  background-color: #fff;
+}
+input.form-control.mr-sm-2.iconePesquisaForm:focus, input.form-control.mr-sm-2.iconePesquisaForm:hover {
+  width: 100%;
+  transition: 0.5s;
+  border-bottom: 1px #6c757d99 solid;
+}
+h4.widget-title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 35px;
+  margin: 30px 0px 0 0;
+}
+
+/*temp slide*/
+.container-fluid.slide-home {
+  background-image: url(https://images.unsplash.com/photo-1588200908342-23b585c03e26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+.container.area-texto-slide h1 {
+  color: #fff;
+  font-size: 80px;
+  text-shadow: aliceblue;
+  display: block;
+  padding: 0 20px;
+  position: relative;
+  bottom: 0;
+}
+
+.titulo_pesquisa {
+    float: none;
+}
+/*menu mobile*/
+button.navbar-toggler.navbar-toggler-center.botão-menu-mobile {
+  width: 100%;
+  background: #025a9e;
+  font-weight: 700;
+  color: #fff;
+  margin: -6px 0px;
+  padding: 8px 0px;
+}
+
+/*BUSCA*/
+div.PesquisaResultadoNovoModelo {
+  WIDTH: 100%;
+  FLOAT: right;
+  padding: 10px 5px 25px 10px;
+}
+h1.titulo_pesquisa a {
+  font-size: 30px;
+  color: 4F4A4A;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: bold;
+}
+.titulo_pesquisa a:hover {
+  font-weight: 700;
+  transition: 0.4s;
+}
+
+.tag_postagem {
+  -webkit-border-radius: 90px;
+  border-radius: 90px;
+  padding: 5px 10px;
+  margin: 5px 20px 0px -20px;
+  background: white;
+  border: 2px #f3eded solid;
+}
+.tag_postagem a{
+  color: #4F4A4A;
+}
+.titulo_pesquisa a {
+  font-size: 22px;
+  color: #4F4A4A;
+  font-weight: 600;
+}
+.PesquisaResultadoNovoModelo {
+  border-top: 2px #efefef solid;
+}
+.topo-busca {
+  margin-bottom: 30px;
+}
+.topo-busca span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.acesso-rapido-bloco h4 {
+  font-weight: 400;
+  color: #f9b928;
+}
+ul.acessp-rapido-menu li {
+  width: 100%;
+  padding: 4px 10px;
+  background: #f9f9f9;
+  margin-bottom: 3px;
+}
+.acesso-rapido-bloco h4 {
+  font-weight: 400;
+  color: #f9b928;
+  margin-bottom: 10px;
+}
+.col-md-3.barra-lateral-direita {
+  position: relative;
+  top: 50px;
+}
+.busca button {
+  -webkit-appearance: none;
+  border: 1px #c1bebe solid;
+  position: absolute;
+  bottom: -89px;
+  right: -11px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #025a9e;
+  padding: 12px 6px;
+}
+.social-link a {
+  display: block;
+  margin: 17px;
+  font-size: 23px;
+  
+}
+input#campoBusca:focus {
+  box-shadow: none;
+  border-bottom: 2px #f9b928 solid;
+  transition: 0.3s;
+}
+ul.dropdown-menu {
+    /* border: none; */
+    background: #f1f1f1;
+    border-radius: 0px!important;
+    top: 38px;
+}
+.esconde-buscar{
+  display: none;
+}
+
+@media (max-width: 768px){
+
+img.img-fluid.d-block.logo_margem {
+  max-width: 270px;
+  margin-top: 5px;
+  position: inherit;
+  left: -30px;
+}
+
+.MenuTopoAlteracao {
+    /* padding: 10px 0px 10px 0px; */
+    /* margin: 0% 0% 0% 13%; */
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.show > .dropdown-menu {
+  display: contents;
+  
+}
+ul#menu-nav-principal-2020 li {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 5px 10;
+  background: #f5f4f4;
+  border-bottom: 2px white solid;
+  text-align: left;
+  margin-left: 1;
+}
 }

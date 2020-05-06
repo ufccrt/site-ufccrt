@@ -54,10 +54,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* alteração importante na sombra do topo, pois ficava muito feio quando entrava nas páginas de posts */
 .sombraDivLogo {
-  box-shadow: 0px 10px 50px -30px #868686;
-  -moz-box-shadow: 0px 10px 50px -30px #868686;
-  -webkit-box-shadow: 0px 10px 50px -30px #868686;
-  -o-box-shadow: 0px 10px 50px -30px #868686; }
+  : 0px 10px 50px -30px #868686;
+  -moz-: 0px 10px 50px -30px #868686;
+  -webkit-: 0px 10px 50px -30px #868686;
+  -o-: 0px 10px 50px -30px #868686; }
 
 
 .alteracaoFooterContatos{
@@ -169,18 +169,18 @@ p {
 /* aqui jaz o primeiro efeito de sombra */
 
 /*.novoSlideShowAdaptacoes{
-  box-shadow: 0px 3px 18px 1px #868686;
-  -moz-box-shadow: 0px 3px 18px 1px #868686;
-  -webkit-box-shadow: 0px 3px 18px 1px #868686;
-  -o-box-shadow: 0px 3px 18px 1px #868686;
+  : 0px 3px 18px 1px #868686;
+  -moz-: 0px 3px 18px 1px #868686;
+  -webkit-: 0px 3px 18px 1px #868686;
+  -o-: 0px 3px 18px 1px #868686;
 }*/
 
 /* aqui jaz o segundo efeito de sombra */
 .novoSlideShowAdaptacoes{
-  box-shadow: 0px 1px 10px 0px #868686;
-  -moz-box-shadow: 0px 1px 10px 0px #868686;
-  -webkit-box-shadow: 0px 1px 10px 0px #868686;
-  -o-box-shadow: 0px 1px 10px 0px #868686;
+  : 0px 1px 10px 0px #868686;
+  -moz-: 0px 1px 10px 0px #868686;
+  -webkit-: 0px 1px 10px 0px #868686;
+  -o-: 0px 1px 10px 0px #868686;
 }
 
 .tituloSlideShowAdaptacoes{
@@ -267,10 +267,10 @@ a:active {
     /*border-left: 1px solid #ddd;*/ 
     
     
-    box-shadow: -13px 0px 45px -24px #868686;
-    -moz-box-shadow: -13px 0px 45px -24px #868686;
-    -webkit-box-shadow: -13px 0px 45px -24px #868686;
-    -o-box-shadow: -13px 0px 45px -24px #868686;
+    : -13px 0px 45px -24px #868686;
+    -moz-: -13px 0px 45px -24px #868686;
+    -webkit-: -13px 0px 45px -24px #868686;
+    -o-: -13px 0px 45px -24px #868686;
 }
 
 .MenuLateralNavPosts{
