@@ -1,0 +1,820 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/07/2017, 11:21:49
+    Author     : Admin
+*/
+
+
+
+
+
+
+/* ////////////////////  ALTERAÇÕES NOVAS NO CSS \\\\\\\\\\\\\\\\\\\\\\\\\  */
+a:link { 
+  
+    text-decoration: none; 
+    
+}
+
+.MenuTopoAlteracao {
+    padding: 5px;
+    margin: 0px 0px 0px 260px;
+    height: auto;
+    width: auto;
+}
+
+ul li {
+    padding: 2px 15px 2px 3px;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0em;
+    font-family: "PT Sans", sans-serif;
+    /* font-weight: 500; */
+    line-height: 1.5em;
+    color: inherit;
+    font-weight: bold;
+}
+
+.icones {
+    font-size: 25px;
+    height: 10px
+        
+}
+
+.mr-auto {
+     margin: 10px 0px 0px 0px;
+}
+
+
+/* alteração importante na sombra do topo, pois ficava muito feio quando entrava nas páginas de posts */
+.sombraDivLogo {
+  box-shadow: 0px 10px 50px -30px #868686;
+  -moz-box-shadow: 0px 10px 50px -30px #868686;
+  -webkit-box-shadow: 0px 10px 50px -30px #868686;
+  -o-box-shadow: 0px 10px 50px -30px #868686; }
+
+
+.alteracaoFooterContatos{
+  padding: 0.3rem 0.1rem;
+  line-height: 1.5em;
+}
+
+h5, .h5 {
+  /*font-size: 1em;*/ 
+}
+
+.EspacamentoTopoMenuLateral {
+    padding: 10px 0px 0px 25px;
+    
+}
+
+h4 {
+    display: block;
+/*    -webkit-margin-before: 2.33em;
+    -webkit-margin-after: 2.33em;*/
+
+    
+    /*-webkit-margin-start: 50px;*/
+    /*-moz-margin-start: 50px;*/
+    
+    
+/*    -webkit-margin-end: 5px;*/
+    font-weight: bold;
+    -moz-word-wrap: break-word;
+    
+}
+
+h4, .h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.5em;
+    font-style: normal;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+.parteTexto {
+/*    width: auto;
+    height: 100px;
+    background-color: white;
+    float: left;
+    z-index: 0;*/
+    
+}
+
+.dataPostagem{
+    height: 15px;
+    width: auto;
+    padding: 0px 0px 0px 5px;
+    margin: 5px 0px 10px 0px;
+    font-size: 12px;
+    font-style: italic;
+    color: #444444;
+    font-family: sans-serif;
+}
+
+/* alterações no slideshow */
+
+.theme-default {
+    padding: 1px 1px 0px 1px;
+    background: #c5c0c0;
+    /*background: #01579b;*/
+}
+
+/* Caption styles - Leo */
+.nivo-caption {
+/*	position:absolute;
+	left:0px;
+	bottom:0px;
+	background: #d81f1f;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box;  Safari/Chrome, other WebKit 
+	-moz-box-sizing: border-box;     Firefox, other Gecko 
+	box-sizing: border-box;          Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:15px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+
+/* aqui jaz o primeiro efeito de sombra */
+
+/*.novoSlideShowAdaptacoes{
+  box-shadow: 0px 3px 18px 1px #868686;
+  -moz-box-shadow: 0px 3px 18px 1px #868686;
+  -webkit-box-shadow: 0px 3px 18px 1px #868686;
+  -o-box-shadow: 0px 3px 18px 1px #868686;
+}*/
+
+/* aqui jaz o segundo efeito de sombra */
+.novoSlideShowAdaptacoes{
+  box-shadow: 0px 1px 10px 0px #868686;
+  -moz-box-shadow: 0px 1px 10px 0px #868686;
+  -webkit-box-shadow: 0px 1px 10px 0px #868686;
+  -o-box-shadow: 0px 1px 10px 0px #868686;
+}
+
+.tituloSlideShowAdaptacoes{
+    
+    	position:relative;
+	left:50px;
+	bottom:50px;
+	background: white;
+	color:red;
+	width:100%;
+	z-index:8;
+	padding: 50px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+    
+}
+
+/* slideshow - final */
+
+.LinhaEspacamento {
+    line-height: 1.25em;
+}
+
+.resumoNoticia p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-style: italic;
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px -10px 5px;
+}
+
+table {
+    width: auto;
+    border: 1px #c5c0c0;
+    background-color: gray;
+}
+
+a:active {
+    font-weight: bold;
+    color: orange;
+}
+
+.textoVertical {
+  vertical-align: middle; }
+
+.table th,
+.table td {
+  vertical-align: middle; }
+
+.cantoTabelaCardapio {
+    background-color: #ececec;
+}
+
+.table-active, .table-active > th, .table-active > td {
+    background-color: rgba(228, 203, 203, 0.075);
+}
+
+
+
+ 
+ 
+.ladoTopicoTabelaCardapio{
+    background-color: #fbf7f7;
+}
+
+
+
+
+
+.menuLateralPosts{
+    float: right;
+    display: block;
+    width: 25%;
+    padding: 0px 0px 0px 10px;
+    white-space: nowrap;
+    /*border-left: 1px solid #ddd;*/ 
+    
+    
+    box-shadow: -13px 0px 45px -24px #868686;
+    -moz-box-shadow: -13px 0px 45px -24px #868686;
+    -webkit-box-shadow: -13px 0px 45px -24px #868686;
+    -o-box-shadow: -13px 0px 45px -24px #868686;
+}
+
+.MenuLateralNavPosts{
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 2px;
+}
+
+.itemMenuLateralPosts {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
+    margin-top: 0rem;
+    
+}
+
+.itemMenuLateralPostsAtivo{
+    font-weight: bold;
+    /*font-size: 15px;*/
+    text-decoration: red;
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #d2d1d1 solid;
+}
+
+.itemMenuLateralPostsNormal{
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #efefef solid;
+}
+
+/* criando multi colunas */
+
+.colunaArtigo{
+    width: 70%;
+    height: auto;
+    display: block;
+    float: left;
+
+}
+
+.addthis_toolbox{
+    padding: 10px 0px 0px 0px;
+    border-bottom: 1px #e8e8e8 solid;
+    border-top: 1px #e8e8e8 solid;
+}
+
+.item-ordenados ol li{
+ 
+    list-style: none;
+    /* margin: 0px 0px 0px 0px; */
+    background: url(../imgs/ico-list.png) no-repeat 0px 5px;
+    padding: 5px 0px 5px 20px;
+    line-height: 1.3em;
+    text-align: justify;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #171717;
+
+}
+
+
+/* /////////////// FINALIZAÇÃO NAS MODIFICAÇÕES NOVA DO CSS \\\\\\\\\\\\\\\\ */
+
+
+/* /////////////// Css para imagem dos post e páginas \\\\\\\\\\\\\\\\ */
+img.alignright {float:right; margin:5px 1em 1em 0;}
+img.alignleft {float:left; margin:5px 1em 1em 0;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:5px 0 1em 1em}
+a img.alignleft {float:left; margin:5px 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+
+
+
+
+
+
+/* ÁREA DE DESTAQUES */
+
+.tituloBannerDestaque {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaDestaquePostagens{
+    width: auto;
+    height: 620px;
+    padding: 5px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.DestaquePrincipal {
+    display: block;
+    float: left;
+/*    width: 825px;*/
+    height: auto;
+}
+
+.BannerNoticias{
+    border: 1px #c5c0c0 solid;
+    margin: 0px 5px 5px 0px;
+    /*width: 550px;*/
+    /*height: 330px;*/
+    width: auto;
+    height: auto;
+}
+
+.DestaqueSecundarios{
+    float: left;
+    display: block;
+    padding: 0px 0px 5px 5px;
+}
+
+.BannerSecundarios{
+    width: 260px;
+    height: auto;
+    border: 1px #c5c0c0 solid;
+}
+
+.resumoDestaqueBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 10px 5px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: bold;
+    /*width: 270px;*/
+    height: auto;
+}
+
+.resumoPequenosBanner{
+    font-family: sans-serif;
+    font-size: 12px;
+    /*padding: 5px;*/
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: bold;
+    width: 260px;
+    height: 45px;
+}
+
+.divisoriaDestaques{
+    width: auto;
+    height: 10px;
+    border-bottom: 1px #b5b5b5 dashed;
+    padding: 5px;
+    display: block;
+    margin: 10px 0px 15px 0px;
+    
+}
+
+
+/* FIM DA ÁREA DE DESTAQUES */
+
+
+
+
+
+
+
+/* ÁREA DE PESQUISA */
+
+.tituloBannerPesquisa {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaPesquisaPostagens{
+    width: auto;
+    height: 650px;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.PesquisaPrincipal {
+/*    display: block;*/
+    /*float: left;*/
+/*    width: 825px;*/
+    height: auto;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+.BannerPesquisa{
+    border: 1px #c5c0c0 solid;
+    margin: 0px auto 5px auto;
+    /*height: 350px;*/
+    /*width: 800px;*/
+}
+
+.PesquisaSecundarios{
+    float: left;
+    display: block;
+    padding: 0px 0px 5px 10px;
+}
+
+.BannerPesquisaSecundarios{
+    width: 260px;
+    height: auto;
+    border: 1px #c5c0c0 solid;
+}
+
+.resumoPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 5px 12px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    /*width: 815px;*/
+    height: auto;
+    /*margin: 0px auto 0px auto;*/
+}
+
+.resumoPequenosPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    /*width: 260px;*/
+    height: auto;
+}
+
+
+/* FIM DA ÁREA DE PESQUISA */
+
+
+
+
+
+
+/* ÁREA DE EXTENSÃO */
+
+.tituloBannerExtensao {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 7px 5px 6px 0px;
+    background-color: white;
+}
+
+.areaExtensaoPostagens{
+    width: auto;
+    height: 625px;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.ExtensaoPrincipal {
+    display: block;
+    float: left;
+/*    width: 825px;*/
+    height: auto;
+}
+
+.BannerExtensao{
+    border: 1px #c5c0c0 solid;
+    margin: 0px 5px 5px 0px;
+    /*width: 500px;*/
+    height: auto;
+}
+
+.ExtensaoSecundarios{
+    /*float: left;*/
+    display: block;
+    padding: 0px 0px 10px 0px;
+}
+
+.BannerExtensaoSecundarios{
+    /*width: 300px;*/
+    height: auto;
+        margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.resumoExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: bold;
+    /*width: 500px;*/
+    height: auto;
+}
+
+.resumoPequenosExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    /*width: 300px;*/
+    height: auto;
+}
+
+
+/* FIM DA ÁREA DE EXTENSÃO */
+
+
+
+
+
+.zebrado {
+    background-image: url(../imgs/zebrado.png);
+    border: 0px;
+    padding: 10px 0px 9px 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+}
+
+
+
+
+.BotoesLinksExtensao {
+    width: 230px;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 0px auto 0px auto;
+    /*background-color: #d2d1d1;*/
+    vertical-align: middle;
+    
+    display: block;
+    float: left;
+}
+
+.BotoesLinksExtensao2 {
+    width: 230px;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 0px auto 0px auto;
+    /*background-color: #d2d1d1;*/
+    vertical-align: middle;
+    
+    display: block;
+    float: right;
+}
+
+
+.LadoBannerPrincipalExtensao{
+    /*width: 510px;*/
+    /*height: 400px;*/
+    /*background-color: red;*/
+    display: block;
+    float: left;
+}
+
+
+.LadoBannerSecundarioExtensao {
+    /*width: 314px;*/
+    /*height: 580px;*/
+    /*background-color: blue;*/
+    display: block;
+    /*float: right;*/
+}
+
+.ParteBannerEmbaixoTopicos{
+    /*width: 510px;*/
+    height: auto;
+    /*background-color: green;*/
+    display: block;
+    float: left;
+    /*vertical-align: bottom;*/
+}
+
+
+.ParteBannerDestaquePrincipal {
+    /*width: 555px;*/
+    /*height: 385px;*/
+    display: block;
+    float: left;
+    /*background-color: red;*/
+}
+
+.ParteBannerDestaqueSecundario{
+    width: 270px;
+    height: 385px;
+    display: block;
+    float: right;
+    /*background-color: blueviolet;*/
+}
+
+.ParteBannerDestaqueSecundario2{
+    width: auto;
+    height: auto;
+    display: block;
+    float: none;
+    /*background-color: blueviolet;*/
+}
+
+
+.AlinhamentoParagrafoBotoesExtensao{
+    align-items: center;
+    text-align: center;
+}
+
+
+.MaisNoticiasDestaques{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+    margin: 5px 0px 0px 0px;
+}
+
+
+.iconePesquisaForm {
+    background: url(../imgs/icone.png) no-repeat scroll 7px 7px;
+    padding-left: 30px;
+    width: 50px;
+}
+
+/*.widget-title {
+    background: url(../imgs/icone.png) no-repeat scroll 7px 7px;
+    padding-left: 30px;
+}*/
+
+
+
+
+
+/*--------    CSS para as páginas de pesquisas    ----------*/
+
+.PesquisaResultadoPostAutorData{
+    font-size: 13px;
+    padding: 15px;
+    line-height: 2.5em;
+    font-family: sans-serif;
+    border-bottom: 1px #eae9e9 solid;
+}
+
+
+.entry-title{
+    font-family: sans-serif;
+    font-size: 23px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.entry-summary {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+}
+
+
+/*--------    CSS para as páginas de pesquisas    ----------*/
+
+
+
+/* a partir daqui fica o modelo 2 do footer */
+
+.FooterSegundoModelo {
+    background-color: #01579b;
+    color: white;
+}
+
+
+.espaco1 {
+  
+  color: white;
+}
+
+.espaco2 {
+  
+  color: white;
+}
+
+.espaco3 {
+  
+  color: white;
+}
+
+.espaco4 {
+  
+  color: white;
+}
+
+.recuoEsquerda {
+
+    color: white;
+}
+
+.icones_redes_sociais_rodape {
+    
+    color: white;
+    
+}
+
+.iconesModelo2{
+    color: white;
+}
+
+/* modelo 2 do footer */
+
+
+
+/* modelo 2 do header */
+
+.novoFundoAlternativo {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.novoFundoAlternativo2 {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.sombraDivTopo {
+    /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+    
+}
+
+/* modelo 2 do header */
+
+
+.GovernoFederalLogoFooter {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    /* margin: 0px auto 0px auto; */
+    padding: 35px;
+}
+
+.espaco5 {
+     margin-left: 0em;
+}
+
+.DiminuirrecuoEsquerda {
+  text-indent: 0px; 
+}
+
+
+.wp-post-image {
+    width: auto;
+    height: auto;
+}
