@@ -1,3 +1,25 @@
+<?php 
+
+$SMALL = "300x300";
+
+function getThumbnail($size){
+    if(has_post_thumbnail()){
+        $url = get_the_post_thumbnail_url(null, $size);
+
+        if($url)
+            return esc_url($url);
+        else
+            return "";
+    }
+    
+}
+
+function getThumbnails(){
+    return the_post_thumbnail('thumb-post', array());
+}
+
+?>
+
 <section id="destaques"class="container-fluid row">
     <div class="container">
     
@@ -27,7 +49,7 @@
                             foreach( $myposts as $post ) : setup_postdata($post);?>
                               <div class="col-md-4 float-left post-destaque">
                                 <a href="<?php the_permalink(); ?>">
-                                    <div class="thumb-destaque" style="background-image: url(<?php if(has_post_thumbnail()){the_post_thumbnail('thumb-post', array(  )); }?>"></div>
+                                    <div class="thumb-destaque" style="background-image: url(<?php print(getThumbnail($SMALL))?>"></div>
                                     <div class="textos-post-destaque">
                                         <h5><?php echo resume(get_the_title(), 150); ?></h5>
                                         <span class="resumo-post-destaque">
