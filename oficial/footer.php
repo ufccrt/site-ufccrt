@@ -1,11 +1,5 @@
-   
-
-
-<!-- FINAL DO CONTEUDO - ARTICLE -->
-    <!-- ***************** FOOTER ************* -->
     <footer>
-      <div class="bg-faded py-5 ">
-        <div class="container layout_centro BordasInferioresArredondadas sombraDivFooter FooterSegundoModelo">
+        <div class="container-fluid layout_centro BordasInferioresArredondadas sombraDivFooter FooterSegundoModelo">
           <div class="row adaptacao_footer ">
             <!-- O efeito da sombra ajudou na divisória, então não precisa disso -->
             <!-- <div class="separador"></div> -->
@@ -96,7 +90,6 @@
           </div>
           
         </div>
-      </div>
     </footer>
     <!-- FINAL DO FOOTER -->
     
@@ -106,52 +99,51 @@
     <script src="http://barra.brasil.gov.br/barra.js" type="text/javascript" defer="" async=""></script>
     
     
-        <!-- add gallery justificada -->
+     <!-- add gallery justificada -->
 		
-<script src="<?php echo home_url( '/' ); ?>wp-content/themes/oficial/js/gallery_justify/js/jquery.justifiedGallery.min.js"></script>  
-<script src="<?php echo home_url( '/' ); ?>wp-content/themes/oficial/galery/js/jquery.colorbox-min.js"></script>
-  		
-<script>
-			$(document).ready(function(){
-				//Examples of how to assign the Colorbox event to elements
-				$(".group1").colorbox({rel:'group1', transition:"fade", width:"800px"});
-				$(".group2").colorbox({rel:'group2', transition:"fade"});
-				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
-				$(".group4").colorbox({rel:'group4', slideshow:true});
-				$(".ajax").colorbox();
-				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
-				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
-				$(".inline").colorbox({inline:true, width:"50%"});
-				$(".callbacks").colorbox({
-					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
-				});
+    <script src="<?php echo home_url( '/' ); ?>wp-content/themes/oficial/js/gallery_justify/js/jquery.justifiedGallery.min.js"></script>  
+    <script src="<?php echo home_url( '/' ); ?>wp-content/themes/oficial/galery/js/jquery.colorbox-min.js"></script>
+          
+    <script>
+          $(document).ready(function(){
+            //Examples of how to assign the Colorbox event to elements
+            $(".group1").colorbox({rel:'group1', transition:"fade", width:"800px"});
+            $(".group2").colorbox({rel:'group2', transition:"fade"});
+            $(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+            $(".group4").colorbox({rel:'group4', slideshow:true});
+            $(".ajax").colorbox();
+            $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+            $(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+            $(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+            $(".inline").colorbox({inline:true, width:"50%"});
+            $(".callbacks").colorbox({
+              onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+              onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+              onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+              onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+              onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+            });
 
-				$('.non-retina').colorbox({rel:'group5', transition:'none'})
-				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
-				
-				//Example of preserving a JavaScript event for inline calls.
-				$("#click").click(function(){ 
-					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-					return false;
-				});
-			});
-		</script>
+            $('.non-retina').colorbox({rel:'group5', transition:'none'})
+            $('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+            
+            //Example of preserving a JavaScript event for inline calls.
+            $("#click").click(function(){ 
+              $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+              return false;
+            });
+          });
+    </script>
 		
-<script type="text/javascript">
+    <script type="text/javascript">
 
-        $("#galeriaAcademica").justifiedGallery();
+            $("#galeriaAcademica").justifiedGallery();
 
-</script>
+    </script>
 		
         <!-- add gallery justificada -->
     
   </div>
-  <div class="espacamentoFinal"></div>
   <?php  wp_footer(); ?>
 </body>
 
