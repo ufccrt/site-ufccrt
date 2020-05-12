@@ -2,6 +2,7 @@
 require_once('wp-bootstrap-navwalker.php');
 
 $SMALL = "300x300";
+$BIG = "1024x1024";
 
 function wpdocs_after_setup_theme() {
     add_theme_support( 'html5', array( 'search-form' ) );
@@ -212,5 +213,21 @@ function getThumbnails(){
 }
 
 function isPage(){
-  return is_page('');
+  global $post;
+  return $post->post_type === 'page';
+}
+
+function isPost(){
+  global $post;
+  return $post->post_type === 'post';
+}
+
+function viewPost(){
+    // PAGINA NOTÍCIA (Post)
+      if ( have_posts() ) {
+        while(have_posts()){
+          the_post(); 
+          the_content();
+        }
+    }
 }
