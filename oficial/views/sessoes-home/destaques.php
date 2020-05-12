@@ -1,25 +1,3 @@
-<?php 
-
-$SMALL = "300x300";
-
-function getThumbnail($size){
-    if(has_post_thumbnail()){
-        $url = get_the_post_thumbnail_url(null, $size);
-
-        if($url)
-            return esc_url($url);
-        else
-            return "";
-    }
-    
-}
-
-function getThumbnails(){
-    return the_post_thumbnail('thumb-post', array());
-}
-
-?>
-
 <section id="destaques"class="container-fluid row">
     <div class="container">
     

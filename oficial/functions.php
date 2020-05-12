@@ -1,6 +1,8 @@
 <?php
 require_once('wp-bootstrap-navwalker.php');
 
+$SMALL = "300x300";
+
 function wpdocs_after_setup_theme() {
     add_theme_support( 'html5', array( 'search-form' ) );
 }
@@ -191,3 +193,24 @@ function custom_pagination($numpages = '', $pagerange = '', $paged='') {
 
 }
 remove_action('wp_head', 'wp_generator');
+
+
+function getThumbnail($size){
+    if(has_post_thumbnail()){
+        $url = get_the_post_thumbnail_url(null, $size);
+
+        if($url)
+            return esc_url($url);
+        else
+            return "";
+    }
+    
+}
+
+function getThumbnails(){
+    return the_post_thumbnail('thumb-post', array());
+}
+
+function isPage(){
+  return is_page('');
+}
