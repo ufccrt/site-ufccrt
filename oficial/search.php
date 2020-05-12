@@ -73,7 +73,7 @@
 			<?php } ?>
 		</div>
 		<div class="col-md-3 barra-lateral-direita">
-				<?php include_once 'views/acessorapido.php'; ?>
+				<?php include_once 'views/sessoes-home/acessorapido.php'; ?>
 		</div>
 	</div>
 </div>
