@@ -1,3 +1,5 @@
+
+# BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
@@ -5,4 +7,7 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
+RewriteRule ^SMA2019/(.*)$ http://crateus.ufc.br/sma2019/ [R=301,L]
 </IfModule>
+
+# END WordPress
