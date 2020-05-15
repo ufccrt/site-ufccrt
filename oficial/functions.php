@@ -2,7 +2,6 @@
 require_once('wp-bootstrap-navwalker.php');
 
 $SMALL = "300x300";
-$BIG = "1024x1024";
 
 function wpdocs_after_setup_theme() {
     add_theme_support( 'html5', array( 'search-form' ) );

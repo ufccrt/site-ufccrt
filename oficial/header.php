@@ -76,6 +76,8 @@
                 <div class="col-md-12 social-link">
                     <a href="#" class="float-left"><i class="icon-facebook"></i></a>
                     <a href="#" class="float-left"><i class="icon-instagram"></i></a>
+                    <a href="#login" class="lrm-login"><i class="icon-edit"></i></a>
+                    
                 </div>
                 <div class="col-md-12 busca">
                     <form id="busca" class="formPesquisaTopo" role="search" method="get"
