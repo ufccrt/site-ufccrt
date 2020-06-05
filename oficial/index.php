@@ -9,7 +9,7 @@
           return $var;
           }
       ?>     
-<div class="container-fluid">
+<div class="container-fluid corpo-site">
       <?php
         //HOME PAGE
         if(is_front_page()){ 
@@ -17,7 +17,7 @@
           include_once 'views/principal.php';
           include_once 'views/acessorapido.php';
         }else{
-          include_once 'views/noticia.php';
+          include_once 'views/conteudo.php';
         }
         //FIM HOME PAGE
       ?>

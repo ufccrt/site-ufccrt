@@ -11,11 +11,13 @@
 					$termoPesquisado = get_search_query();
 						if ($termoPesquisado!=""){
 							echo $termoPesquisado;
+							 
 						}else {
 							echo "Digite o que você procura no campo de busca, no topo da págiana";
 						}
 					?>
 				</span>
+				
 			</div>
 			
 						
@@ -47,11 +49,13 @@
 								</div><!-- .entry-summary -->
 							</div>
 							
+							
 			<?php
 			
 			endwhile;
 
 			?>
+			
 
 			<?php
 					$ver=have_posts();

@@ -7,7 +7,7 @@
                             $args = array( 'numberposts' => 6, 'cat' => 6, true );
                             $myposts = get_posts( $args );
                             foreach( $myposts as $post ) : setup_postdata($post);?>
-                              <div class="col-md-4 float-left post-destaque">
+                              <div class="col-md-4 col-sm-6  col-12 float-left post-destaque">
                                 <div class="post-destaque-conteudo">
                                     <a href="<?php the_permalink(); ?>">
                                         <div class="textos-post-destaque">
@@ -27,6 +27,6 @@
         
     </div>
     <div class="container mais-notícia">
-            <a href="<?php echo home_url( '/' ); ?>categoria/noticia">Mais notícias</a>
+            <a href="<?php echo home_url( '/' ); ?>categoria/noticias/">Mais notícias <i class="fas fa-th-list"></i></a>
     </div>
 </section>

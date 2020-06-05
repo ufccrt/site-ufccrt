@@ -1,4 +1,4 @@
-<section id="destaques"class="container-fluid row">
+<section id="destaques"class="container-fluid">
     <div class="container">
     
         <div class="col-md-9 float-left">
@@ -12,7 +12,8 @@
                             $myposts = get_posts( $args );
                             foreach( $myposts as $post ) : setup_postdata($post);?>
                               <div class="manchete-importante">
-                                  <a href="<?php the_permalink(); ?>"><?php echo resume(get_the_title(), 150); ?></a>
+                              
+                                  <a href="<?php the_permalink(); ?>"><?php echo resume(get_the_title(), 150); ?> </a>
                               </div>
                             <?php endforeach;
                         ?>
@@ -25,13 +26,13 @@
                             $args = array( 'numberposts' => 3, 'cat' => 5, true );
                             $myposts = get_posts( $args );
                             foreach( $myposts as $post ) : setup_postdata($post);?>
-                              <div class="col-md-4 float-left post-destaque">
+                              <div class="col-md-4 col-sm-6 col-12 float-left post-destaque">
                                 <a href="<?php the_permalink(); ?>">
                                     <div class="thumb-destaque" style="background-image: url(<?php print(getThumbnail($SMALL))?>"></div>
                                     <div class="textos-post-destaque">
-                                        <h5><?php echo resume(get_the_title(), 150); ?></h5>
+                                        <h5><?php echo resume(get_the_title(), 100); ?></h5>
                                         <span class="resumo-post-destaque">
-                                           <?php echo resume(get_the_excerpt(),100); ?>
+                                           <?php echo resume(the_excerpt(),150); ?>
                                         </span>
                                     </div>
                                 </a>
