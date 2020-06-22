@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta property="og:image" content="<?php echo home_url( '/' ); ?>wp-content/themes/oficial/imgs/compartilhar.png" />
+    <meta property="og:image" content="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/imgs/compartilhar.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         type="text/css">
@@ -20,7 +20,7 @@
     <title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
     <meta name="description" content="Universidade Federal do Ceará">
     <meta name="keywords" content="Universidade Federal, UFC, Universidade Pública">
-    <link rel="icon" href="<?php echo home_url( '/' ); ?>wp-content/themes/oficial/imgs/indice.png">
+    <link rel="icon" href="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/imgs/indice.png">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->

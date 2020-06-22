@@ -249,7 +249,7 @@ function meu_bottom() {
   ) );
  
  }
- add_action( 'widgets_init', 'meu_widget' );
+//  add_action( 'widgets_init', 'meu_widget' );
 
  //breadcrumbs
  function custom_breadcrumbs() {

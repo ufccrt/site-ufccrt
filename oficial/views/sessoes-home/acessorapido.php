@@ -20,6 +20,9 @@
             <a href="https://agendecrateus.ufc.br/" target="_blank">Sistema Agende</a>
         </li>
         <li>
+            <a href="https://agendecrateus.ufc.br/" target="_blank">Sistema de Gestão de Befeícios</a>
+        </li>
+        <li>
             <a href="http://crateus.ufc.br/eventos/" target="_blank">Sistema de Eventos</a>
         </li>
         <li>
@@ -30,25 +33,16 @@
     <span></span>
     <ul class="acesso-rapido-thumbs">
         <li class="col-md-6 col-sm-4 col-4 float-left">
-            <a href="#">
+            <a href="https://sisu.mec.gov.br/" target="_blank">
             <img src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/imgs/acesso_rapido/logo-sisu.png" alt="">
             </a>
         </li>
         <li class="col-md-6 col-sm-4 col-4 float-left">
-        <a href="#">
-            <img src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/imgs/acesso_rapido/logo-sisu.png" alt="">
+        <a href="https://sei.ufc.br/sip/login.php?sigla_orgao_sistema=UFC&sigla_sistema=SEI" target="_blank">
+            <img src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/imgs/acesso_rapido/sei.png" alt="">
             </a>
         </li>
-        <li class="col-md-6 col-sm-4 col-4 float-left">
-        <a href="#">
-            <img src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/imgs/acesso_rapido/logo-sisu.png" alt="">
-            </a>
-        </li>
-        <li class="col-md-6 col-sm-4 col-4 float-left">
-        <a href="#">
-            <img src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/imgs/acesso_rapido/logo-sisu.png" alt="">
-            </a>
-        </li>
+       
     </ul>
     
 </div>

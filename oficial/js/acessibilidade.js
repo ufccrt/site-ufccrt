@@ -54,6 +54,7 @@ $( document ).ready(function() {
     $artigo = $("article");
     $artigoDestaque = $("article .head");
     $span = $("span.resumo-post-destaque");
+    $links= $("a");
 
 
     function obterTamnhoFonte() {
@@ -65,22 +66,22 @@ $( document ).ready(function() {
     $h5.css('font-size', obterTamnhoFonte() + 1);
     $h5.css('line-height', "120%");
     $li.css('font-size', obterTamnhoFonte() + 1);
-    $liTop.css('font-size', obterTamnhoFonte() + 1);
     $artigo.css('font-size', obterTamnhoFonte() + 3);
     $artigoDestaque.css('font-size', obterTamnhoFonte() + 3);
     $span.css('font-size', obterTamnhoFonte() + 1);
     $navTop.css('font-size', obterTamnhoFonte() + 1);
+    $links.css('font-size', obterTamnhoFonte() + 1);
     });
 
     $btnDiminuir.on('click', function() {
     $elemento.css('font-size', obterTamnhoFonte() - 1);
     $h5.css('font-size', obterTamnhoFonte() - 1);
     $li.css('font-size', obterTamnhoFonte() - 1);
-    $liTop.css('font-size', obterTamnhoFonte() - 1);
     $artigo.css('font-size', obterTamnhoFonte() - 3);
     $artigoDestaque.css('font-size', obterTamnhoFonte() - 3);
     $span.css('font-size', obterTamnhoFonte() - 1);
     $navTop.css('font-size', obterTamnhoFonte() - 1);
+    $links.css('font-size', obterTamnhoFonte() - 1);
     });
 });
 

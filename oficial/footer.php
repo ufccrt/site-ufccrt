@@ -89,8 +89,8 @@
 <!-- add gallery justificada -->
 
 <script
-    src="<?php echo home_url( '/' ); ?>wp-content/themes/oficial/js/gallery_justify/js/jquery.justifiedGallery.min.js"></script>
-<script src="<?php echo home_url( '/' ); ?>wp-content/themes/oficial/galery/js/jquery.colorbox-min.js"></script>
+    src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/js/gallery_justify/js/jquery.justifiedGallery.min.js"></script>
+<script src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/galery/js/jquery.colorbox-min.js"></script>
 <script src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/js/acessibilidade.js"></script>
 <script>
     $(document).ready(function () {

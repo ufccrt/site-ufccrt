@@ -4,7 +4,7 @@
             <div class="noticia-recente">
                     <?php
                             global $post;
-                            $args = array( 'numberposts' => 6, 'cat' => 6, true );
+                            $args = array( 'numberposts' => 6, 'cat' => 16, true );
                             $myposts = get_posts( $args );
                             foreach( $myposts as $post ) : setup_postdata($post);?>
                               <div class="col-md-4 col-sm-6  col-12 float-left post-destaque">

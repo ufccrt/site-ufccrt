@@ -13,9 +13,9 @@
       <?php
         //HOME PAGE
         if(is_front_page()){ 
-          include_once 'views/slide-home.php';
+          include_once 'views/sessoes-home/slide-home.php';
           include_once 'views/principal.php';
-          include_once 'views/acessorapido.php';
+          include_once 'views/sessoes-home/acessorapido.php';
         }else{
           include_once 'views/conteudo.php';
         }

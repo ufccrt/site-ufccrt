@@ -9,7 +9,7 @@ License: CrateÃºs-UFC
 */
 @import url('css/reset.css');
 @import url('css/rebuild.css');
-@import url('css/pgServidores.css');
+/* @import url('css/pgServidores.css'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 
@@ -27,7 +27,7 @@ body {
   -o-background-size: cover;
   background-size: cover; 
   background-attachment: fixed;
-  background-image: url('imgs/background.jpg');
+  /* background-image: url('imgs/background.jpg'); */
   font-family: 'Montserrat', sans-serif !important;
 }
 p, h1, h2, h3, h4, h5, h6, span, a, li, section {
@@ -167,9 +167,14 @@ text-rendering: optimizeSpeed;
 color: #35373d;
 width: 98.4%;
 }
-
+.dropdown-toggle::after{
+  display: none!important;
+}
 /*reformulação 2020*/
-
+.row {
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
 /*cabecalho*/
 header.container-fluid.row {
   background: #f1f1f1;
@@ -907,7 +912,13 @@ ul.acesso-rapido-thumbs img {
   width: 100%;
   display: block;
   padding: 10px;
+  filter: grayscale(1) brightness(0.6);
 }
+ul.acesso-rapido-thumbs img:hover {
+
+  filter: none;
+}
+
 ul.acesso-rapido-thumbs {
   padding: 20px 0;
 }
@@ -1007,6 +1018,9 @@ button.btn.btn-large.btn-block.btn-default {
 .dados-servidor {
   float: left;
 }
+.show > .dropdown-menu a:hover {
+  font-weight: 600;
+}
 @media (max-width:1200px){
     .logos-cursos {
         padding: 2px;
@@ -1018,8 +1032,9 @@ button.btn.btn-large.btn-block.btn-default {
   .linha-cursos {
     display: block;
   }
-}
+
 @media (max-width: 768px){
+
   .logos-cursos {
     width: 200px;
     float: left;
@@ -1081,11 +1096,9 @@ input.form-control.mr-sm-2.iconePesquisaForm {
 }
 .show > .dropdown-menu a {
   color: #636c72;
-}
-ul.dropdown-menu a {
-   width: 100%;
+  width: 100%;
   display: block;
-  text-align: center;
+}
 }
 
 @media (max-width: 500px){

@@ -1,5 +1,5 @@
 <?php if(isPage()){ ?>
-            <div class="cntainer-fluid row">
+            <div class="container-fluid row">
                         
                         <div class="top-noticia" style="background-image: url(<?php print(getThumbnail($BIG))?>">
                         </div>
