@@ -27,6 +27,6 @@
         
     </div>
     <div class="container mais-notícia">
-            <a href="<?php echo home_url( '/' ); ?>categoria/noticias/">Mais notícias <i class="fas fa-th-list"></i></a>
+            <a href="<?php echo home_url( '/' ); ?>categoria/noticia/">Mais notícias <i class="fas fa-th-list"></i></a>
     </div>
 </section>
