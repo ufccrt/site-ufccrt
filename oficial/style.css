@@ -1164,3 +1164,6 @@ ul.ctrlAccessibility span {
 }
 
 
+input.form-control.mr-sm-2.iconePesquisaForm {
+  background-color: transparent !important;
+}
