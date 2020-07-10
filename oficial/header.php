@@ -121,7 +121,6 @@
                     <div class="sociais">
                         <a href="#" class="float-left"><i class="fab fa-facebook"></i></a>
                         <a href="#" class="float-left"><i class="fab fa-instagram"></i></a>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfav_uaFCCucseD6Rwbn2FnF6-5cBXMREkgxA3XnpJ_XdYzoA/viewform?usp=pp_url" class="lrm-login" target="_blank"><i class="fas fa-pen-square"></i></a>
                     </div>
                 </div>
                 <div class="col-md-12 busca">
