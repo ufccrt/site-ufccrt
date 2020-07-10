@@ -1167,3 +1167,23 @@ ul.ctrlAccessibility span {
 input.form-control.mr-sm-2.iconePesquisaForm {
   background-color: transparent !important;
 }
+
+.custom-control {
+   color: #4F4A4A;
+   font-weight: 600;
+   font-size: inherit;
+
+}
+
+span:hover {
+  font-weight: bold;
+}
+
+span:hover {
+  font-weight: bold;
+}
+
+.page {
+  width: 100%;
+  padding: 2% 33%;
+}
