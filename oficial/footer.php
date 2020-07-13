@@ -1,8 +1,15 @@
 <footer>
 <?php dynamic_sidebar( 'menu-de-rodape' ); ?>
-       <!-- <div class="container">
+
+
+       <div class="container">
+
+        <div class="row">
+
             <div class="col-md-4">
-                <h2 class="oculto"><a id="menu-rodape">Menu Mais UFC</a></h2>
+                <h2 class="oculto">
+                    <a id="menu-rodape">Mais UFC</a>
+                </h2>
                 <div class="m-menu">
                     <ul class="menu-rodape">
                         <li class=""><a href="/biblioteca" class="link">Biblioteca</a></li>
@@ -20,11 +27,15 @@
                                 Concursos</a></li>
                         <li class=""><a href="/comunicacao-e-marketing/equipe-responsavel-e-contato"
                                 class="link">Comunicação e Marketing</a></li>
+                        <li><a class="ir-topo" href="#">Ir para o topo</a></li>
                     </ul>
                 </div>
             </div>
+
             <div class="col-md-4">
-                <h2 class="oculto"><a id="menu-portal">Menu Sobre o Portal</a></h2>
+                <h2 class="oculto">
+                    <a id="menu-portal">Portal</a>
+                </h2>
                 <div class="m-menu">
                     <ul class="nav">
                         <li class="item i343 parent"><a href="/sobre-o-sitio" class="link">Sobre o sítio</a></li>
@@ -33,6 +44,7 @@
                     </ul>
                 </div>
             </div>
+
             <div class="col-md-4 ">
                 <div class="banner-rodape">
                     <h2 class="oculto">Parcerias</h2>
@@ -46,6 +58,7 @@
                                 </a>
                                 <div class="clr"></div>
                             </div>
+
                             <div class="banneritem">
                                 <a class="link" href="/component/banners/click/12" title="Periodicos">
                                     <img src="http://www.ufc.br/images/banners/selo-periodicos.png"
@@ -55,9 +68,14 @@
                             </div>
 
                         </div>
+                        <!-- fim da div bannergroup -->
+
                     </div>
+                    <!-- fim da div moduletable -->
 
                 </div>
+                <!-- fim da div banner-rodape -->
+
                 <div class="endereco">
                     <h2 class="oculto">Endereço</h2>
                     <address><span class="postal">Av. da Universidade, 2853 - Benfica, Fortaleza - CE, CEP 60020-181 -
@@ -65,17 +83,29 @@
                                 class="mapa">Ver mapa</a></span><span class="tel"><strong>Fone: </strong>+55 (85) 3366
                             7300</span> </address>
                 </div>
+                <!-- fim da div endereco -->
+
             </div>
+            <!-- fim da div col-md-4 -->
+
+            </div>
+
         </div>
+        <!-- fim da div container -->
+
+
+
         <div id="creditos">
             <div class="container">
                 <span class="twelve columns">© 2020 <a href="http://www.sti.ufc.br" class="sti"
                         title="Créditos">Secretaria de Tecnologia da Informação/Divisão de Portais Universitários</a>
                 </span>
-                <span class="four columns"><a class="ir-topo" href="#">Ir para o topo</a></span>
             </div>
-        </div>-->
+        </div>
     
+
+
+
 </footer>
 
 <!-- FINAL DO FOOTER -->
