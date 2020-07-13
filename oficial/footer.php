@@ -85,11 +85,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script src="http://barra.brasil.gov.br/barra_2.0.js" type="text/javascript"></script>
 
-
-<!-- add gallery justificada -->
-
-<!-- <script src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/galery/js/jquery.colorbox-min.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox.js" type="text/javascript"></script>
 <script src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/js/acessibilidade.js"></script>
 <script>
     $(document).ready(function () {
