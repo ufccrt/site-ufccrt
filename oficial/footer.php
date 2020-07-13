@@ -81,16 +81,10 @@
 <!-- FINAL DO FOOTER -->
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-<script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
-<script src="http://barra.brasil.gov.br/barra.js" type="text/javascript" defer="" async=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="http://barra.brasil.gov.br/barra_2.0.js" type="text/javascript"></script>
 
-
-<!-- add gallery justificada -->
-
-<script
-    src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/js/gallery_justify/js/jquery.justifiedGallery.min.js"></script>
-<script src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/galery/js/jquery.colorbox-min.js"></script>
 <script src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/js/acessibilidade.js"></script>
 <script>
     $(document).ready(function () {
@@ -128,7 +122,7 @@
 
 <script type="text/javascript">
 
-    $("#galeriaAcademica").justifiedGallery();
+    // $("#galeriaAcademica").justifiedGallery();
 
 </script>
 
