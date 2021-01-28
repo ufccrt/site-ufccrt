@@ -1,15 +1,8 @@
 <footer>
 <?php dynamic_sidebar( 'menu-de-rodape' ); ?>
-
-
-       <div class="container">
-
-        <div class="row">
-
-            <div class="col-md-4 footer-custom">
-                <h2 class="oculto">
-                    <a id="menu-rodape">Mais UFC</a>
-                </h2>
+       <!-- <div class="container">
+            <div class="col-md-4">
+                <h2 class="oculto"><a id="menu-rodape">Menu Mais UFC</a></h2>
                 <div class="m-menu">
                     <ul class="menu-rodape">
                         <li class=""><a href="/biblioteca" class="link">Biblioteca</a></li>
@@ -27,67 +20,77 @@
                                 Concursos</a></li>
                         <li class=""><a href="/comunicacao-e-marketing/equipe-responsavel-e-contato"
                                 class="link">Comunicação e Marketing</a></li>
-                        <li><a class="ir-topo" href="#">Ir para o topo</a></li>
                     </ul>
                 </div>
             </div>
-
-            <div class="col-md-4 footer-custom">
-                <h2 class="oculto">
-                    <a id="menu-portal">Portal</a>
-                </h2>
+            <div class="col-md-4">
+                <h2 class="oculto"><a id="menu-portal">Menu Sobre o Portal</a></h2>
                 <div class="m-menu">
-                    <ul>
+                    <ul class="nav">
                         <li class="item i343 parent"><a href="/sobre-o-sitio" class="link">Sobre o sítio</a></li>
                         <li class="item i344"><a href="/dominios-ufc-br" class="link">Dominios ufc.br</a></li>
                         <li class="item i345"><a href="/mapa-do-sitio" class="link">Mapa do sítio</a></li>
-                        <li class="item i346"><a href="/antigo" class="link">Site Antigo</a></li>
                     </ul>
                 </div>
             </div>
+            <div class="col-md-4 ">
+                <div class="banner-rodape">
+                    <h2 class="oculto">Parcerias</h2>
+                    <div class="moduletable">
+                        <div class="bannergroup">
 
-            <div class="col-md-4 footer-custom">
+                            <div class="banneritem">
+                                <a class="link" href="/component/banners/click/11" title="Acesso a Informação">
+                                    <img src="http://www.ufc.br/images/banners/selo-ai.png"
+                                        alt="Sítio Acesso à Informação da UFC">
+                                </a>
+                                <div class="clr"></div>
+                            </div>
+                            <div class="banneritem">
+                                <a class="link" href="/component/banners/click/12" title="Periodicos">
+                                    <img src="http://www.ufc.br/images/banners/selo-periodicos.png"
+                                        alt="Portal do periodico Capes">
+                                </a>
+                                <div class="clr"></div>
+                            </div>
 
+                        </div>
+                    </div>
+
+                </div>
                 <div class="endereco">
                     <h2 class="oculto">Endereço</h2>
                     <address><span class="postal">Av. da Universidade, 2853 - Benfica, Fortaleza - CE, CEP 60020-181 -
                             <a href="https://www.google.com.br/maps/place/Av.+da+Universidade,+2853+-+Benfica,+Fortaleza+-+CE,+60020-181/@-3.7418722,-38.5409871,17z/data=!3m1!4b1!4m5!3m4!1s0x7c7491020890039:0x2abd7761d35693b2!8m2!3d-3.7418722!4d-38.5387984"
-                                class="mapa">Ver mapa</a></span> <br>
-                                <span class="tel">Fone: +55 (85) 3366-7300</span> 
-                    </address>
+                                class="mapa">Ver mapa</a></span><span class="tel"><strong>Fone: </strong>+55 (85) 3366
+                            7300</span> </address>
                 </div>
-                <!-- fim da div endereco -->
-
             </div>
-            <!-- fim da div col-md-4 -->
-
-            </div>
-
         </div>
-        <!-- fim da div container -->
-
-
-
         <div id="creditos">
             <div class="container">
                 <span class="twelve columns">© 2020 <a href="http://www.sti.ufc.br" class="sti"
                         title="Créditos">Secretaria de Tecnologia da Informação/Divisão de Portais Universitários</a>
                 </span>
+                <span class="four columns"><a class="ir-topo" href="#">Ir para o topo</a></span>
             </div>
-        </div>
+        </div>-->
     
-
-
-
 </footer>
 
 <!-- FINAL DO FOOTER -->
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<script src="http://barra.brasil.gov.br/barra_2.0.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+<script src="http://barra.brasil.gov.br/barra.js" type="text/javascript" defer="" async=""></script>
 
+
+<!-- add gallery justificada -->
+
+<script
+    src="<?php echo home_url( '/' ); ?>wp-content/themes/oficial/js/gallery_justify/js/jquery.justifiedGallery.min.js"></script>
+<script src="<?php echo home_url( '/' ); ?>wp-content/themes/oficial/galery/js/jquery.colorbox-min.js"></script>
 <script src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/js/acessibilidade.js"></script>
 <script>
     $(document).ready(function () {
@@ -125,7 +128,7 @@
 
 <script type="text/javascript">
 
-    // $("#galeriaAcademica").justifiedGallery();
+    $("#galeriaAcademica").justifiedGallery();
 
 </script>
 
