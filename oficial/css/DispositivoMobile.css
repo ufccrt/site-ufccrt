@@ -1,0 +1,5336 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/07/2017, 11:21:49
+    Author     : Admin
+*/
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* DISPOSITIVOS MÃ“VEIS */
+
+/* ------ 320px (iPhone5)  - inicio do bloco ----- */
+
+@media (min-width: 320px) {
+
+	/* estilização do paginador */
+	
+	.navigation {
+		text-align: center;
+		padding: 10px;
+    	font-size: 12px;
+    	font-weight: bold;
+    	font-family: sans-serif;
+	}
+	
+	.nav-next {
+		width: auto;
+    	padding: 5px;
+	}
+	
+	.nav-previous {
+		width: auto;
+    	padding: 5px;	
+	}
+	
+	/* estilização do paginador */
+	
+	
+	/* estilização - pesquisa */
+	.titulo_pesquisa {
+		font-size: 12px;
+		font-weight: bold;
+		float: left;
+		padding: 5px 0px;
+	}
+	
+	/* estilização - pesquisa */
+	
+	
+	.tag_postagem {
+		font-size: 12px;
+		text-decoration: none;
+		background-color: #ffe0b5;
+		moz-border-radius: 90px;
+    	-webkit-border-radius: 90px;
+    	border-radius: 90px;
+		/* color: yellow; */
+		padding: 5px;
+		margin: auto 0px auto 5px;
+		font-weight: bold;
+    	font-size: 11px;
+    	float: left;
+	}
+	
+	.PesquisaResultadoNovoModelo {
+		font-size: 12px;
+	}
+	
+	.detalhe_pesquisa {
+		font-size: 12px;
+		text-align: center;
+	}
+	
+	/* estilização das categorias */
+	
+	.entry-meta {
+		width: 10%;
+    	float: left;
+    	text-transform: uppercase;
+    	text-align: center;
+    	margin: 5px 10px;
+    	border-right: 1px #a29f9f solid;
+    	font-weight: bold;
+	}
+	
+	/* estilização das categorias */
+	
+	
+	
+
+	
+	
+	
+	.copy {
+    	font-size: 13px;
+    	padding: 15px;
+    	text-align: center;
+    	margin: auto;
+	}
+
+/* ////////////////////  ALTERAÃ‡Ã•ES NOVAS NO CSS \\\\\\\\\\\\\\\\\\\\\\\\\  */
+a:link { 
+  
+    text-decoration: none; 
+    
+}
+
+.MenuTopoAlteracao {
+    padding: 10px 0px 10px 0px;
+    margin: 0% 0% 0% 13%;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+ul li {
+    padding: 2px 15px 2px 3px;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0em;
+    font-family: "PT Sans", sans-serif;
+    /* font-weight: 500; */
+    line-height: 1.5em;
+    color: inherit;
+    font-weight: bold;
+}
+
+.icones {
+    font-size: 25px;
+    /* height: 10px */
+        
+}
+
+.mr-auto {
+     margin: 10px 0px 0px 0px;
+}
+
+
+/* alteraÃ§Ã£o importante na sombra do topo, pois ficava muito feio quando entrava nas pÃ¡ginas de posts */
+.sombraDivLogo {
+  : 0px 10px 50px -30px #868686;
+  -moz-: 0px 10px 50px -30px #868686;
+  -webkit-: 0px 10px 50px -30px #868686;
+  -o-: 0px 10px 50px -30px #868686; }
+
+
+.alteracaoFooterContatos{
+  padding: 0.3rem 0.1rem;
+  line-height: 1.5em;
+}
+
+h5, .h5 {
+  /*font-size: 1em;*/ 
+}
+
+.EspacamentoTopoMenuLateral {
+    padding: 10px 0px 0px 25px;
+    
+}
+
+h4 {
+    display: block;
+/*    -webkit-margin-before: 2.33em;
+    -webkit-margin-after: 2.33em;*/
+
+    
+    /*-webkit-margin-start: 50px;*/
+    /*-moz-margin-start: 50px;*/
+    
+    
+/*    -webkit-margin-end: 5px;*/
+    font-weight: bold;
+    -moz-word-wrap: break-word;
+    
+}
+
+h4, .h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    /* margin-top: 20px; */
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.5em;
+    font-style: normal;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+.parteTexto {
+/*    width: auto;
+    height: 100px;
+    background-color: white;
+    float: left;
+    z-index: 0;*/
+    
+}
+
+.dataPostagem{
+    height: 15px;
+    width: auto;
+    padding: 0px 0px 0px 5px;
+    margin: 5px 0px 10px 0px;
+    font-size: 12px;
+    font-style: italic;
+    color: #444444;
+    font-family: sans-serif;
+}
+
+/* alteraÃ§Ãµes no slideshow */
+
+.theme-default {
+    padding: 1px 1px 0px 1px;
+    background: #c5c0c0;
+    /*background: #01579b;*/
+}
+
+/* Caption styles - Leo */
+.nivo-caption {
+/*	position:absolute;
+	left:0px;
+	bottom:0px;
+	background: #d81f1f;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box;  Safari/Chrome, other WebKit 
+	-moz-box-sizing: border-box;     Firefox, other Gecko 
+	box-sizing: border-box;          Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:15px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+
+/* aqui jaz o primeiro efeito de sombra */
+
+/*.novoSlideShowAdaptacoes{
+  : 0px 3px 18px 1px #868686;
+  -moz-: 0px 3px 18px 1px #868686;
+  -webkit-: 0px 3px 18px 1px #868686;
+  -o-: 0px 3px 18px 1px #868686;
+}*/
+
+/* aqui jaz o segundo efeito de sombra */
+.novoSlideShowAdaptacoes{
+  : 0px 1px 10px 0px #868686;
+  -moz-: 0px 1px 10px 0px #868686;
+  -webkit-: 0px 1px 10px 0px #868686;
+  -o-: 0px 1px 10px 0px #868686;
+}
+
+.tituloSlideShowAdaptacoes{
+    
+    	position:relative;
+	left:50px;
+	bottom:50px;
+	background: white;
+	color:red;
+	width:100%;
+	z-index:8;
+	padding: 50px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+    
+}
+
+/* slideshow - final */
+
+.LinhaEspacamento {
+    line-height: 1.25em;
+}
+
+.resumoNoticia p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-style: italic;
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px -10px 5px;
+}
+
+table {
+    width: auto;
+    border: 1px #c5c0c0;
+    background-color: gray;
+}
+
+a:active {
+    font-weight: bold;
+    color: orange;
+}
+
+.textoVertical {
+  vertical-align: middle; }
+
+.table th,
+.table td {
+  vertical-align: middle; }
+
+.cantoTabelaCardapio {
+    background-color: #ececec;
+}
+
+.table-active, .table-active > th, .table-active > td {
+    background-color: rgba(228, 203, 203, 0.075);
+}
+
+
+
+ 
+ 
+.ladoTopicoTabelaCardapio{
+    background-color: #fbf7f7;
+}
+
+
+
+
+
+.menuLateralPosts{
+    float: right;
+    display: block;
+    width: 25%;
+    padding: 0px 0px 0px 10px;
+    white-space: nowrap;
+    /*border-left: 1px solid #ddd;*/ 
+    
+    
+    : -13px 0px 45px -24px #868686;
+    -moz-: -13px 0px 45px -24px #868686;
+    -webkit-: -13px 0px 45px -24px #868686;
+    -o-: -13px 0px 45px -24px #868686;
+}
+
+.MenuLateralNavPosts{
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 2px;
+}
+
+.itemMenuLateralPosts {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
+    margin-top: 0rem;
+    
+}
+
+.itemMenuLateralPostsAtivo{
+    font-weight: bold;
+    /*font-size: 15px;*/
+    text-decoration: red;
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #d2d1d1 solid;
+}
+
+.itemMenuLateralPostsNormal{
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #efefef solid;
+}
+
+/* criando multi colunas */
+
+.colunaArtigo{
+    width: 70%;
+    height: auto;
+    display: block;
+    float: left;
+
+}
+
+.addthis_toolbox{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px #e8e8e8 solid;
+    border-top: 1px #e8e8e8 solid;
+    margin-bottom: 15px;
+}
+
+.item-ordenados ol li{
+ 
+    list-style: none;
+    /* margin: 0px 0px 0px 0px; */
+    background: url(../imgs/ico-list.png) no-repeat 0px 5px;
+    padding: 5px 0px 5px 20px;
+    line-height: 1.3em;
+    text-align: justify;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #171717;
+
+}
+
+
+/* /////////////// FINALIZAÃ‡ÃƒO NAS MODIFICAÃ‡Ã•ES NOVA DO CSS \\\\\\\\\\\\\\\\ */
+
+
+/* /////////////// Css para imagem dos post e pÃ¡ginas \\\\\\\\\\\\\\\\ */
+img.alignright {float:right; margin:5px 1em 1em 0;}
+img.alignleft {float:left; margin:5px 1em 1em 0;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:5px 0 1em 1em}
+a img.alignleft {float:left; margin:5px 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+
+
+
+
+
+
+/* Ã�REA DE DESTAQUES */
+
+.tituloBannerDestaque {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaDestaquePostagens{
+    width: auto;
+    height: 620px;
+    padding: 5px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.DestaquePrincipal {
+    display: block;
+    float: left;
+/*    width: 825px;*/
+    height: auto;
+}
+
+.BannerNoticias{
+    border: 1px #c5c0c0 solid;
+    margin: 0px 5px 5px 0px;
+    /*width: 550px;*/
+    /*height: 330px;*/
+    width: auto;
+    height: auto;
+}
+
+.DestaqueSecundarios{
+    /* float: left;
+    display: block;
+    padding: 0px 0px 5px 5px;  */
+}
+
+.BannerSecundarios{
+    width: 260px;
+    height: auto;
+    /* border: 1px #c5c0c0 solid; */
+}
+
+.resumoDestaqueBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 10px 5px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: bold;
+    /*width: 550px;*/
+    height: auto;
+}
+
+.resumoPequenosBanner{
+    font-family: sans-serif;
+    font-size: 12px;
+    /*padding: 5px;*/
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    /* width: 260px;
+    height: 45px; */
+}
+
+.divisoriaDestaques{
+    width: auto;
+    height: 10px;
+    border-bottom: 1px #b5b5b5 dashed;
+    padding: 5px;
+    display: block;
+    margin: 10px 0px 15px 0px;
+    
+}
+
+
+/* FIM DA Ã�REA DE DESTAQUES */
+
+
+
+
+
+
+
+/* Ã�REA DE PESQUISA */
+
+.tituloBannerPesquisa {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaPesquisaPostagens{
+    width: auto;
+    height: 650px;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.PesquisaPrincipal {
+/*    display: block;*/
+    /*float: left;*/
+/*    width: 825px;*/
+    height: auto;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+.BannerPesquisa{
+    /* border: 1px #c5c0c0 solid; */
+    margin: 0px auto 5px auto;
+    /*height: 350px;*/
+    /*width: 800px;*/
+}
+
+.PesquisaSecundarios{
+    /* float: left; */
+    display: block;
+    padding: 0px 0px 5px 10px;
+}
+
+.BannerPesquisaSecundarios{
+    width: 260px;
+    height: auto;
+    /* border: 1px #c5c0c0 solid; */
+}
+
+.resumoPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 5px 12px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: bold;
+    width: 815px;
+    height: auto;
+    /*margin: 0px auto 0px auto;*/
+}
+
+.resumoPequenosPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: bold;
+    width: 260px;
+    height: auto;
+}
+
+
+/* FIM DA Ã�REA DE PESQUISA */
+
+
+
+
+
+
+/* Ã�REA DE EXTENSÃƒO */
+
+.tituloBannerExtensao {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 7px 5px 6px 5px;
+    background-color: white;
+}
+
+.areaExtensaoPostagens{
+    width: auto;
+    height: auto;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.ExtensaoPrincipal {
+    display: block;
+    float: left;
+/*    width: 825px;*/
+    height: auto;
+}
+
+.BannerExtensao{
+    /* border: 1px #c5c0c0 solid; */
+    /* margin: 0px 5px 5px 0px; */
+    width: auto; 
+    height: auto;
+}
+
+.ExtensaoSecundarios{
+    /* float: left; */
+    display: block;
+    padding: 0px 0px 10px 0px;
+}
+
+.BannerExtensaoSecundarios{
+    width: auto;
+    height: auto;
+}
+
+.resumoExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: bold;
+    width: 500px;
+    height: auto;
+}
+
+.resumoPequenosExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 5px 12px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: bold;
+    width: 300px;
+    height: auto;
+}
+
+
+/* FIM DA Ã�REA DE EXTENSÃƒO */
+
+
+
+
+
+.zebrado {
+    background-image: url(../imgs/zebrado.png);
+    border: 0px;
+    padding: 10px 0px 9px 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+
+
+
+.BotoesLinksExtensao {
+    width: auto;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 0px auto 0px auto;
+    /*background-color: #d2d1d1;*/
+    vertical-align: middle;
+    
+    /* display: block;
+    float: left; */
+}
+
+.BotoesLinksExtensao2 {
+    width: 230px;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 0px auto 0px auto;
+    /*background-color: #d2d1d1;*/
+    vertical-align: middle;
+    
+    /* display: block;
+    float: right; */
+}
+
+
+.LadoBannerPrincipalExtensao{
+    width: 510px;
+    height: 400px;
+    /*background-color: red;*/
+    display: block;
+    float: left;
+}
+
+
+.LadoBannerSecundarioExtensao {
+    width: 314px;
+    height: 580px;
+    /*background-color: blue;*/
+    display: block;
+    float: right;
+}
+
+.ParteBannerEmbaixoTopicos{
+    width: 510px;
+    height: auto;
+    /*background-color: green;*/
+    /* display: block;
+    float: left; */
+    /*vertical-align: bottom;*/
+}
+
+
+.ParteBannerDestaquePrincipal {
+    width: 555px;
+    height: 385px;
+    display: block;
+    float: left;
+    /*background-color: red;*/
+}
+
+.ParteBannerDestaqueSecundario{
+    /* width: 270px; */
+    /* height: 385px; 
+    display: block;
+    float: right; */
+    /*background-color: blueviolet;*/
+}
+
+.ParteBannerDestaqueSecundario2{
+    width: auto;
+    height: auto;
+    display: block;
+    float: none;
+    /*background-color: blueviolet;*/
+}
+
+
+.AlinhamentoParagrafoBotoesExtensao{
+    align-items: center;
+    text-align: center;
+}
+
+
+.MaisNoticiasDestaques{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0px 15px 0px 0px;
+    margin: 5px 0px 0px 0px;
+}
+
+
+.iconePesquisaForm {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+    width: 50px;
+}
+
+/*.widget-title {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+}*/
+
+
+
+
+
+/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+.PesquisaResultadoPostAutorData{
+    font-size: 13px;
+    padding: 15px 0px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    border-bottom: 2px #eae9e9 dotted;
+    float: left;
+    width: 100%;
+}
+
+
+.entry-title{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.entry-summary {
+    font-size: 13px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    color: #696666;
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+
+/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+
+
+/* a partir daqui fica o modelo 2 do footer */
+
+.FooterSegundoModelo {
+    background-color: #01579b;
+    color: white;
+}
+
+
+.espaco1 {
+  
+  color: white;
+}
+
+.espaco2 {
+  
+  color: white;
+}
+
+.espaco3 {
+  
+  color: white;
+}
+
+.espaco4 {
+  
+  color: white;
+}
+
+.recuoEsquerda {
+
+    color: white;
+}
+
+.icones_redes_sociais_rodape {
+    
+    color: white;
+    
+}
+
+.iconesModelo2{
+    color: white;
+}
+
+/* modelo 2 do footer */
+
+
+
+/* modelo 2 do header */
+
+.novoFundoAlternativo {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.novoFundoAlternativo2 {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.sombraDivTopo {
+    /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+    
+}
+
+/* modelo 2 do header */
+
+
+.GovernoFederalLogoFooter {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    /* margin: 0px auto 0px auto; */
+    padding: 35px;
+}
+
+.espaco5 {
+     margin-left: 0em;
+}
+
+.DiminuirrecuoEsquerda {
+  text-indent: 0px; 
+}
+
+
+.wp-post-image {
+    /* width: auto; */
+    width: 100%;
+    height: auto;
+}
+
+
+
+ }
+
+/* ------ 320px  - final do bloco ----- */
+ 
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* DISPOSITIVOS MÃ“VEIS */
+
+/* ------ 360px (Galaxy S5 por exemplo)  - inicio do bloco ----- */
+
+@media (min-width: 360px) {
+
+
+/* barra de acesso rápido */
+	
+	.bannergroup {
+		padding: 0px;
+    	line-height: 1.5em;
+    	width: 95%;
+    	/* height: 100%; */
+    	margin: auto;
+	}
+	
+	.banneritem {
+		padding: 2px;
+    	width: auto;
+    	/* height: 100%; */
+    	margin: auto;
+	}
+
+	.bannerAcessoRapido {
+		width: 90%;
+		height: auto;
+	}
+	
+/* barra de acesso rápido */	
+	
+	
+.copy {
+    font-size: 13px;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}	
+	
+	
+.logoUFC_adaptacoes {
+	width: auto;
+	padding: 10px;
+	margin: 5px;
+	
+}	
+	
+	
+.navbar-nav {
+  display: flex;
+  /* flex-direction: column; */
+  /* padding-left: 0; */
+  /* margin-bottom: 0; */
+  list-style: none; 
+  
+  }	
+	
+li.nav-item {
+    /* padding: 0rem 0rem 0rem 0rem; */
+}	
+	
+	
+	
+	
+	
+	
+
+/* ////////////////////  ALTERAÃ‡Ã•ES NOVAS NO CSS \\\\\\\\\\\\\\\\\\\\\\\\\  */
+a:link { 
+  
+    text-decoration: none; 
+    
+}
+
+.MenuTopoAlteracao {
+    padding: 10px 0px 10px 0px;
+    margin: 0% 0% 0% 13%;
+    height: auto;
+    width: auto;
+    text-align: center;
+    
+}
+
+ul li {
+    padding: 2px 15px 2px 3px;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0em;
+    font-family: "PT Sans", sans-serif;
+    /* font-weight: 500; */
+    line-height: 1.5em;
+    color: inherit;
+    font-weight: bold;
+}
+
+.icones {
+    font-size: 25px;
+    /* height: 10px */
+        
+}
+
+.mr-auto {
+     margin: 10px 0px 0px 0px;
+     flex: auto;
+}
+
+
+/* alteraÃ§Ã£o importante na sombra do topo, pois ficava muito feio quando entrava nas pÃ¡ginas de posts */
+.sombraDivLogo {
+  : 0px 10px 50px -30px #868686;
+  -moz-: 0px 10px 50px -30px #868686;
+  -webkit-: 0px 10px 50px -30px #868686;
+  -o-: 0px 10px 50px -30px #868686; }
+
+
+.alteracaoFooterContatos{
+  padding: 0.3rem 0.1rem;
+  line-height: 1.5em;
+}
+
+h5, .h5 {
+  /*font-size: 1em;*/ 
+}
+
+.EspacamentoTopoMenuLateral {
+    padding: 10px 0px 0px 25px;
+    
+}
+
+h4 {
+    display: block;
+/*    -webkit-margin-before: 2.33em;
+    -webkit-margin-after: 2.33em;*/
+
+    
+    /*-webkit-margin-start: 50px;*/
+    /*-moz-margin-start: 50px;*/
+    
+    
+/*    -webkit-margin-end: 5px;*/
+    font-weight: bold;
+    -moz-word-wrap: break-word;
+    
+}
+
+h4, .h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    /* margin-top: 20px; */
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.5em;
+    font-style: normal;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+.parteTexto {
+/*    width: auto;
+    height: 100px;
+    background-color: white;
+    float: left;
+    z-index: 0;*/
+    
+}
+
+.dataPostagem{
+    height: 15px;
+    width: auto;
+    padding: 0px 0px 0px 5px;
+    margin: 5px 0px 10px 0px;
+    font-size: 12px;
+    font-style: italic;
+    color: #444444;
+    font-family: sans-serif;
+}
+
+/* alteraÃ§Ãµes no slideshow */
+
+.theme-default {
+    padding: 1px 1px 0px 1px;
+    background: #c5c0c0;
+    /*background: #01579b;*/
+}
+
+/* Caption styles - Leo */
+.nivo-caption {
+/*	position:absolute;
+	left:0px;
+	bottom:0px;
+	background: #d81f1f;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box;  Safari/Chrome, other WebKit 
+	-moz-box-sizing: border-box;     Firefox, other Gecko 
+	box-sizing: border-box;          Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:15px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+
+/* aqui jaz o primeiro efeito de sombra */
+
+/*.novoSlideShowAdaptacoes{
+  : 0px 3px 18px 1px #868686;
+  -moz-: 0px 3px 18px 1px #868686;
+  -webkit-: 0px 3px 18px 1px #868686;
+  -o-: 0px 3px 18px 1px #868686;
+}*/
+
+/* aqui jaz o segundo efeito de sombra */
+.novoSlideShowAdaptacoes{
+  : 0px 1px 10px 0px #868686;
+  -moz-: 0px 1px 10px 0px #868686;
+  -webkit-: 0px 1px 10px 0px #868686;
+  -o-: 0px 1px 10px 0px #868686;
+}
+
+.tituloSlideShowAdaptacoes{
+    
+    	position:relative;
+	left:50px;
+	bottom:50px;
+	background: white;
+	color:red;
+	width:100%;
+	z-index:8;
+	padding: 50px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+    
+}
+
+/* slideshow - final */
+
+.LinhaEspacamento {
+    line-height: 1.25em;
+}
+
+.resumoNoticia p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-style: italic;
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px -10px 5px;
+}
+
+table {
+    width: auto;
+    border: 1px #c5c0c0;
+    background-color: gray;
+}
+
+a:active {
+    font-weight: bold;
+    color: orange;
+}
+
+.textoVertical {
+  vertical-align: middle; }
+
+.table th,
+.table td {
+  vertical-align: middle; }
+
+.cantoTabelaCardapio {
+    background-color: #ececec;
+}
+
+.table-active, .table-active > th, .table-active > td {
+    background-color: rgba(228, 203, 203, 0.075);
+}
+
+
+
+ 
+ 
+.ladoTopicoTabelaCardapio{
+    background-color: #fbf7f7;
+}
+
+
+
+
+
+.menuLateralPosts{
+    float: right;
+    display: block;
+    width: 25%;
+    padding: 0px 0px 0px 10px;
+    white-space: nowrap;
+    /*border-left: 1px solid #ddd;*/ 
+    
+    
+    : -13px 0px 45px -24px #868686;
+    -moz-: -13px 0px 45px -24px #868686;
+    -webkit-: -13px 0px 45px -24px #868686;
+    -o-: -13px 0px 45px -24px #868686;
+}
+
+.MenuLateralNavPosts{
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 2px;
+}
+
+.itemMenuLateralPosts {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
+    margin-top: 0rem;
+    
+}
+
+.itemMenuLateralPostsAtivo{
+    font-weight: bold;
+    /*font-size: 15px;*/
+    text-decoration: red;
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #d2d1d1 solid;
+}
+
+.itemMenuLateralPostsNormal{
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #efefef solid;
+}
+
+/* criando multi colunas */
+
+.colunaArtigo{
+    width: 70%;
+    height: auto;
+    display: block;
+    float: left;
+
+}
+
+.addthis_toolbox{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px #e8e8e8 solid;
+    border-top: 1px #e8e8e8 solid;
+    margin-bottom: 15px;
+}
+
+.item-ordenados ol li{
+ 
+    list-style: none;
+    /* margin: 0px 0px 0px 0px; */
+    background: url(../imgs/ico-list.png) no-repeat 0px 5px;
+    padding: 5px 0px 5px 20px;
+    line-height: 1.3em;
+    text-align: justify;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #171717;
+
+}
+
+
+/* /////////////// FINALIZAÃ‡ÃƒO NAS MODIFICAÃ‡Ã•ES NOVA DO CSS \\\\\\\\\\\\\\\\ */
+
+
+/* /////////////// Css para imagem dos post e pÃ¡ginas \\\\\\\\\\\\\\\\ */
+img.alignright {float:right; margin:5px 1em 1em 0;}
+img.alignleft {float:left; margin:5px 1em 1em 0;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:5px 0 1em 1em}
+a img.alignleft {float:left; margin:5px 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+
+
+
+
+
+
+/* Ã�REA DE DESTAQUES */
+
+.tituloBannerDestaque {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaDestaquePostagens{
+    width: auto;
+    /* height: 880px; */
+    height: auto;
+    padding: 5px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.DestaquePrincipal {
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.BannerNoticias{
+    border: 1px #c5c0c0 solid;
+    margin: 0px 5px 5px 0px;
+    /*width: 550px;*/
+    /*height: 330px;*/
+    width: auto;
+    height: auto;
+}
+
+.DestaqueSecundarios{
+/*    float: left;
+    display: block;
+    padding: 0px 0px 5px 5px; */
+}
+
+.BannerSecundarios{
+    width: auto;
+    height: auto;
+    /* border: 1px #c5c0c0 solid; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+.resumoDestaqueBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 10px 5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+.resumoPequenosBanner{
+    font-family: sans-serif;
+    font-size: 12px;
+    /*padding: 5px;*/
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    /* width: 270px;
+    height: auto; */
+    margin: 5px auto 10px auto;
+}
+
+.divisoriaDestaques{
+    width: 95%;
+    height: 10px;
+    border-bottom: 1px #b5b5b5 dashed;
+    padding: 5px;
+    margin: 10px auto 15px auto;
+    text-align: center;
+    display: block;
+    float: none;
+}
+
+
+/* FIM DA Ã�REA DE DESTAQUES */
+
+
+
+
+
+
+
+/* Ã�REA DE PESQUISA */
+
+.tituloBannerPesquisa {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaPesquisaPostagens{
+    width: auto;
+    height: auto;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.PesquisaPrincipal {
+/*    display: block;*/
+    /*float: left;*/
+    width: auto;
+    height: auto;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+.BannerPesquisa{
+    /* border: 1px #c5c0c0 solid; */
+    margin: 0px auto 5px auto;
+    /*height: 350px;*/
+    /*width: 800px;*/
+}
+
+.PesquisaSecundarios{
+    /* float: left; */
+    display: block;
+    padding: 0px 0px 5px 0px;
+}
+
+.BannerPesquisaSecundarios{
+    width: auto;
+    height: auto;
+    /* border: 1px #c5c0c0 solid; */
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+
+.resumoPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 5px 12px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    /*margin: 0px auto 0px auto;*/
+}
+
+.resumoPequenosPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 0px 5px 0px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+
+/* FIM DA Ã�REA DE PESQUISA */
+
+
+
+
+
+
+/* Ã�REA DE EXTENSÃƒO */
+
+.tituloBannerExtensao {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 7px 5px 6px 5px;
+    background-color: white;
+}
+
+.areaExtensaoPostagens{
+    width: auto;
+    height: auto;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.ExtensaoPrincipal {
+    display: block;
+    float: left;
+	width: auto;
+    height: auto;
+}
+
+.BannerExtensao{
+    /* border: 1px #c5c0c0 solid; */
+    /* margin: 0px 5px 5px 0px; */
+    width: auto;
+    height: auto;
+}
+
+.ExtensaoSecundarios{
+    /* float: left; */
+    display: block;
+    padding: 10px 0px 10px 0px;
+}
+
+.BannerExtensaoSecundarios{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.resumoExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+.resumoPequenosExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    
+    padding: 5px 5px 5px 12px; 
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+
+/* FIM DA Ã�REA DE EXTENSÃƒO */
+
+
+
+
+
+.zebrado {
+    background-image: url(../imgs/zebrado.png);
+    border: 0px;
+    padding: 10px 0px 9px 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+.BotoesLinksExtensao {
+    width: auto;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 0px auto 0px auto;
+    /*background-color: #d2d1d1;*/
+    vertical-align: middle;
+    text-align: center;
+    /* display: block;
+    float: left; */
+}
+
+.BotoesLinksExtensao2 {
+    width: auto;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 20px auto 5px auto;
+    /*background-color: #d2d1d1;*/
+    /* vertical-align: middle; */
+    text-align: center;
+    /* display: block;
+    float: left; */
+}
+
+
+.LadoBannerPrincipalExtensao{
+    width: auto;
+    height: auto;
+    /*background-color: red;*/
+    display: block;
+    float: left;
+}
+
+
+.LadoBannerSecundarioExtensao {
+    width: auto;
+    height: auto;
+    /*background-color: blue;*/
+    display: block;
+    float: right;
+    margin: 0px 0px 20px 0px;
+}
+
+.ParteBannerEmbaixoTopicos{
+    width: auto;
+    height: auto;
+    /*background-color: green;*/
+    /* display: block;
+    float: left; */
+    /*vertical-align: bottom;*/
+    padding: 0px 0px 20px 0px;
+    margin: 0px auto 0px auto;
+    background-color: white;
+    /* background-image: url(""); */
+}
+
+.MaisNoticiasDestaques2 {
+	margin: auto;
+	text-align: center;
+}
+
+
+.ParteBannerDestaquePrincipal {
+    width: auto;
+    height: auto;
+    display: block;
+    /* float: left; */
+    /*background-color: red;*/
+}
+
+.ParteBannerDestaqueSecundario{
+    /* width: auto; */
+    /* height: 385px; */
+     display: block;  
+    /* float: right; */
+    /*background-color: blueviolet;*/
+    margin: 0px auto 0px auto;
+}
+
+.ParteBannerDestaqueSecundario2{
+    width: auto;
+    height: auto;
+    display: block;
+    /* float: none; */
+    /*background-color: blueviolet;*/
+}
+
+
+.AlinhamentoParagrafoBotoesExtensao{
+    align-items: center;
+    text-align: center;
+}
+
+
+.MaisNoticiasDestaques{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px 20px 0px;
+    margin: 5px 0px 0px 0px;
+    /* float: left; */
+    /* display: block; */
+}
+
+
+.iconePesquisaForm {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+    width: 50px;
+}
+
+/*.widget-title {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+}*/
+
+
+
+
+
+/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+.PesquisaResultadoPostAutorData{
+    font-size: 13px;
+    padding: 15px 0px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    border-bottom: 2px #eae9e9 dotted;
+    float: left;
+    width: 100%;
+}
+
+
+.entry-title{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.entry-summary {
+    font-size: 13px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    color: #696666;
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+
+/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+
+
+/* a partir daqui fica o modelo 2 do footer */
+
+.FooterSegundoModelo {
+    background-color: #01579b;
+    color: white;
+}
+
+
+.espaco1 {
+  
+  color: white;
+}
+
+.espaco2 {
+  
+  color: white;
+}
+
+.espaco3 {
+  
+  color: white;
+}
+
+.espaco4 {
+  
+  color: white;
+}
+
+.recuoEsquerda {
+
+    color: white;
+}
+
+.icones_redes_sociais_rodape {
+    
+    color: white;
+    
+}
+
+.iconesModelo2{
+    color: white;
+}
+
+/* modelo 2 do footer */
+
+
+
+/* modelo 2 do header */
+
+.novoFundoAlternativo {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.novoFundoAlternativo2 {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.sombraDivTopo {
+    /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+    
+}
+
+/* modelo 2 do header */
+
+
+.GovernoFederalLogoFooter {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    /* margin: 0px auto 0px auto; */
+    padding: 35px;
+}
+
+.espaco5 {
+     margin-left: 0em;
+}
+
+.DiminuirrecuoEsquerda {
+  text-indent: 0px; 
+}
+
+
+.wp-post-image {
+    /* width: auto; */
+    width: 100%;
+    height: auto;
+}
+
+
+ol, ul, dl {
+     text-align: center;
+ }
+
+.alinhamentoCentral {
+    margin: 0px auto 0px auto;
+}
+
+
+ }
+
+/* ------ 360px  - final do bloco ----- */
+ 
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* DISPOSITIVOS MÃ“VEIS */
+
+/* ------ 375px  - inicio do bloco ----- */
+
+@media (min-width: 375px) {
+
+.logoUFC_adaptacoes {
+	width: auto;
+	padding: 5px;
+	margin: 5px;
+	
+}	
+	
+
+.navbar-nav {
+  display: flex;
+  /* flex-direction: column; */
+  /* padding-left: 0; */
+  /* margin-bottom: 0; */
+  list-style: none; 
+  
+  }	
+	
+li.nav-item {
+    /* padding: 0rem 0rem 0rem 0rem; */
+}	
+	
+	
+	
+	
+	
+	
+
+/* ////////////////////  ALTERAÃ‡Ã•ES NOVAS NO CSS \\\\\\\\\\\\\\\\\\\\\\\\\  */
+a:link { 
+  
+    text-decoration: none; 
+    
+}
+
+.MenuTopoAlteracao {
+    padding: 10px 0px 10px 0px;
+    margin: 0% 0% 0% 13%;
+    height: auto;
+    width: auto;
+    text-align: center;
+    
+}
+
+ul li {
+    padding: 2px 15px 2px 3px;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0em;
+    font-family: "PT Sans", sans-serif;
+    /* font-weight: 500; */
+    line-height: 1.5em;
+    color: inherit;
+    font-weight: bold;
+}
+
+.icones {
+    font-size: 25px;
+    /* height: 10px */
+        
+}
+
+.mr-auto {
+     margin: 10px 0px 0px 0px;
+     flex: auto;
+}
+
+
+/* alteraÃ§Ã£o importante na sombra do topo, pois ficava muito feio quando entrava nas pÃ¡ginas de posts */
+.sombraDivLogo {
+  : 0px 10px 50px -30px #868686;
+  -moz-: 0px 10px 50px -30px #868686;
+  -webkit-: 0px 10px 50px -30px #868686;
+  -o-: 0px 10px 50px -30px #868686; }
+
+
+.alteracaoFooterContatos{
+  padding: 0.3rem 0.1rem;
+  line-height: 1.5em;
+}
+
+h5, .h5 {
+  /*font-size: 1em;*/ 
+}
+
+.EspacamentoTopoMenuLateral {
+    padding: 10px 0px 0px 25px;
+    
+}
+
+h4 {
+    display: block;
+/*    -webkit-margin-before: 2.33em;
+    -webkit-margin-after: 2.33em;*/
+
+    
+    /*-webkit-margin-start: 50px;*/
+    /*-moz-margin-start: 50px;*/
+    
+    
+/*    -webkit-margin-end: 5px;*/
+    font-weight: bold;
+    -moz-word-wrap: break-word;
+    
+}
+
+h4, .h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    /* margin-top: 20px; */
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.5em;
+    font-style: normal;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+.parteTexto {
+/*    width: auto;
+    height: 100px;
+    background-color: white;
+    float: left;
+    z-index: 0;*/
+    
+}
+
+.dataPostagem{
+    height: 15px;
+    width: auto;
+    padding: 0px 0px 0px 5px;
+    margin: 5px 0px 10px 0px;
+    font-size: 12px;
+    font-style: italic;
+    color: #444444;
+    font-family: sans-serif;
+}
+
+/* alteraÃ§Ãµes no slideshow */
+
+.theme-default {
+    padding: 1px 1px 0px 1px;
+    background: #c5c0c0;
+    /*background: #01579b;*/
+}
+
+/* Caption styles - Leo */
+.nivo-caption {
+/*	position:absolute;
+	left:0px;
+	bottom:0px;
+	background: #d81f1f;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box;  Safari/Chrome, other WebKit 
+	-moz-box-sizing: border-box;     Firefox, other Gecko 
+	box-sizing: border-box;          Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:15px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+
+/* aqui jaz o primeiro efeito de sombra */
+
+/*.novoSlideShowAdaptacoes{
+  : 0px 3px 18px 1px #868686;
+  -moz-: 0px 3px 18px 1px #868686;
+  -webkit-: 0px 3px 18px 1px #868686;
+  -o-: 0px 3px 18px 1px #868686;
+}*/
+
+/* aqui jaz o segundo efeito de sombra */
+.novoSlideShowAdaptacoes{
+  : 0px 1px 10px 0px #868686;
+  -moz-: 0px 1px 10px 0px #868686;
+  -webkit-: 0px 1px 10px 0px #868686;
+  -o-: 0px 1px 10px 0px #868686;
+}
+
+.tituloSlideShowAdaptacoes{
+    
+    	position:relative;
+	left:50px;
+	bottom:50px;
+	background: white;
+	color:red;
+	width:100%;
+	z-index:8;
+	padding: 50px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+    
+}
+
+/* slideshow - final */
+
+.LinhaEspacamento {
+    line-height: 1.25em;
+}
+
+.resumoNoticia p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-style: italic;
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px -10px 5px;
+}
+
+table {
+    width: auto;
+    border: 1px #c5c0c0;
+    background-color: gray;
+}
+
+a:active {
+    font-weight: bold;
+    color: orange;
+}
+
+.textoVertical {
+  vertical-align: middle; }
+
+.table th,
+.table td {
+  vertical-align: middle; }
+
+.cantoTabelaCardapio {
+    background-color: #ececec;
+}
+
+.table-active, .table-active > th, .table-active > td {
+    background-color: rgba(228, 203, 203, 0.075);
+}
+
+
+
+ 
+ 
+.ladoTopicoTabelaCardapio{
+    background-color: #fbf7f7;
+}
+
+
+
+
+
+.menuLateralPosts{
+    float: right;
+    display: block;
+    width: 25%;
+    padding: 0px 0px 0px 10px;
+    white-space: nowrap;
+    /*border-left: 1px solid #ddd;*/ 
+    
+    
+    : -13px 0px 45px -24px #868686;
+    -moz-: -13px 0px 45px -24px #868686;
+    -webkit-: -13px 0px 45px -24px #868686;
+    -o-: -13px 0px 45px -24px #868686;
+}
+
+.MenuLateralNavPosts{
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 2px;
+}
+
+.itemMenuLateralPosts {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
+    margin-top: 0rem;
+    
+}
+
+.itemMenuLateralPostsAtivo{
+    font-weight: bold;
+    /*font-size: 15px;*/
+    text-decoration: red;
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #d2d1d1 solid;
+}
+
+.itemMenuLateralPostsNormal{
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #efefef solid;
+}
+
+/* criando multi colunas */
+
+.colunaArtigo{
+    width: 70%;
+    height: auto;
+    display: block;
+    float: left;
+
+}
+
+.addthis_toolbox{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px #e8e8e8 solid;
+    border-top: 1px #e8e8e8 solid;
+    margin-bottom: 15px;
+}
+
+.item-ordenados ol li{
+ 
+    list-style: none;
+    /* margin: 0px 0px 0px 0px; */
+    background: url(../imgs/ico-list.png) no-repeat 0px 5px;
+    padding: 5px 0px 5px 20px;
+    line-height: 1.3em;
+    text-align: justify;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #171717;
+
+}
+
+
+/* /////////////// FINALIZAÃ‡ÃƒO NAS MODIFICAÃ‡Ã•ES NOVA DO CSS \\\\\\\\\\\\\\\\ */
+
+
+/* /////////////// Css para imagem dos post e pÃ¡ginas \\\\\\\\\\\\\\\\ */
+img.alignright {float:right; margin:5px 1em 1em 0;}
+img.alignleft {float:left; margin:5px 1em 1em 0;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:5px 0 1em 1em}
+a img.alignleft {float:left; margin:5px 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+
+
+
+
+
+
+/* Ã�REA DE DESTAQUES */
+
+.tituloBannerDestaque {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaDestaquePostagens{
+    width: auto;
+    /* height: 880px; */
+    height: auto;
+    padding: 5px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.DestaquePrincipal {
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.BannerNoticias{
+    border: 1px #c5c0c0 solid;
+    margin: 0px 5px 5px 0px;
+    /*width: 550px;*/
+    /*height: 330px;*/
+    width: auto;
+    height: auto;
+}
+
+.DestaqueSecundarios{
+/*    float: left;
+    display: block;
+    padding: 0px 0px 5px 5px; */
+}
+
+.BannerSecundarios{
+    width: auto;
+    height: auto;
+    /* border: 1px #c5c0c0 solid; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+.resumoDestaqueBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 10px 5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+.resumoPequenosBanner{
+    font-family: sans-serif;
+    font-size: 12px;
+    /*padding: 5px;*/
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    /* width: 270px;
+    height: auto; */
+    margin: 5px auto 10px auto;
+}
+
+.divisoriaDestaques{
+    width: 95%;
+    height: 10px;
+    border-bottom: 1px #b5b5b5 dashed;
+    padding: 5px;
+    margin: 10px auto 15px auto;
+    text-align: center;
+    display: block;
+    float: none;
+}
+
+
+/* FIM DA Ã�REA DE DESTAQUES */
+
+
+
+
+
+
+
+/* Ã�REA DE PESQUISA */
+
+.tituloBannerPesquisa {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaPesquisaPostagens{
+    width: auto;
+    height: auto;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.PesquisaPrincipal {
+/*    display: block;*/
+    /*float: left;*/
+    width: auto;
+    height: auto;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+.BannerPesquisa{
+    /* border: 1px #c5c0c0 solid; */
+    margin: 0px auto 5px auto;
+    /*height: 350px;*/
+    /*width: 800px;*/
+}
+
+.PesquisaSecundarios{
+    /* float: left; */
+    display: block;
+    padding: 0px 0px 5px 0px;
+}
+
+.BannerPesquisaSecundarios{
+    width: auto;
+    height: auto;
+    /* border: 1px #c5c0c0 solid; */
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+
+.resumoPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 5px 12px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    /*margin: 0px auto 0px auto;*/
+}
+
+.resumoPequenosPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 0px 5px 0px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+
+/* FIM DA Ã�REA DE PESQUISA */
+
+
+
+
+
+
+/* Ã�REA DE EXTENSÃƒO */
+
+.tituloBannerExtensao {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 7px 5px 6px 5px;
+    background-color: white;
+}
+
+.areaExtensaoPostagens{
+    width: auto;
+    height: 625px;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.ExtensaoPrincipal {
+    display: block;
+    float: left;
+	width: auto;
+    height: auto;
+}
+
+.BannerExtensao{
+    /* border: 1px #c5c0c0 solid; */
+    /* margin: 0px 5px 5px 0px; */
+    width: auto;
+    height: auto;
+}
+
+.ExtensaoSecundarios{
+    /* float: left; */
+    display: block;
+    padding: 10px 0px 10px 0px;
+}
+
+.BannerExtensaoSecundarios{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.resumoExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+.resumoPequenosExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    
+    padding: 5px 5px 5px 12px; 
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+
+/* FIM DA Ã�REA DE EXTENSÃƒO */
+
+
+
+
+
+.zebrado {
+    background-image: url(../imgs/zebrado.png);
+    border: 0px;
+    padding: 10px 0px 9px 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+.BotoesLinksExtensao {
+    width: auto;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 0px auto 0px auto;
+    /*background-color: #d2d1d1;*/
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.BotoesLinksExtensao2 {
+    width: auto;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 20px auto 5px auto;
+    /*background-color: #d2d1d1;*/
+    /* vertical-align: middle; */
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+
+.LadoBannerPrincipalExtensao{
+    width: auto;
+    height: auto;
+    /*background-color: red;*/
+    display: block;
+    float: left;
+}
+
+
+.LadoBannerSecundarioExtensao {
+    width: auto;
+    height: auto;
+    /*background-color: blue;*/
+    display: block;
+    float: right;
+    margin: 0px 0px 20px 0px;
+}
+
+.ParteBannerEmbaixoTopicos{
+    width: auto;
+    height: auto;
+    /*background-color: green;*/
+    display: block;
+    float: left;
+    /*vertical-align: bottom;*/
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0% 0px 20%;
+}
+
+
+.ParteBannerDestaquePrincipal {
+    width: auto;
+    height: auto;
+    display: block;
+    /* float: left; */
+    /*background-color: red;*/
+}
+
+.ParteBannerDestaqueSecundario{
+    /* width: auto; */
+    /* height: 385px; */
+     display: block;  
+    /* float: right; */
+    /*background-color: blueviolet;*/
+    margin: 0px auto 0px auto;
+}
+
+.ParteBannerDestaqueSecundario2{
+    width: auto;
+    height: auto;
+    display: block;
+    /* float: none; */
+    /*background-color: blueviolet;*/
+}
+
+
+.AlinhamentoParagrafoBotoesExtensao{
+    align-items: center;
+    text-align: center;
+}
+
+
+.MaisNoticiasDestaques{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px 20px 0px;
+    margin: 5px 0px 0px 0px;
+    /* float: left; */
+    display: block;
+}
+
+
+.iconePesquisaForm {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+    width: 50px;
+}
+
+/*.widget-title {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+}*/
+
+
+
+
+
+/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+.PesquisaResultadoPostAutorData{
+    font-size: 13px;
+    padding: 15px 0px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    border-bottom: 2px #eae9e9 dotted;
+    float: left;
+    width: 100%;
+}
+
+
+.entry-title{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.entry-summary {
+    font-size: 13px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    color: #696666;
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+
+/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+
+
+/* a partir daqui fica o modelo 2 do footer */
+
+.FooterSegundoModelo {
+    background-color: #01579b;
+    color: white;
+}
+
+
+.espaco1 {
+  
+  color: white;
+}
+
+.espaco2 {
+  
+  color: white;
+}
+
+.espaco3 {
+  
+  color: white;
+}
+
+.espaco4 {
+  
+  color: white;
+}
+
+.recuoEsquerda {
+
+    color: white;
+}
+
+.icones_redes_sociais_rodape {
+    
+    color: white;
+    
+}
+
+.iconesModelo2{
+    color: white;
+}
+
+/* modelo 2 do footer */
+
+
+
+/* modelo 2 do header */
+
+.novoFundoAlternativo {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.novoFundoAlternativo2 {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.sombraDivTopo {
+    /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+    
+}
+
+/* modelo 2 do header */
+
+
+.GovernoFederalLogoFooter {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    /* margin: 0px auto 0px auto; */
+    padding: 35px;
+}
+
+.espaco5 {
+     margin-left: 0em;
+}
+
+.DiminuirrecuoEsquerda {
+  text-indent: 0px; 
+}
+
+
+.wp-post-image {
+    /* width: auto; */
+    width: 100%;
+    height: auto;
+}
+
+
+ol, ul, dl {
+     text-align: center;
+ }
+
+.alinhamentoCentral {
+    margin: 0px auto 0px auto;
+}
+
+
+ }
+
+/* ------ 375px  - final do bloco ----- */
+ 
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* DISPOSITIVOS MÃ“VEIS */
+
+/* ------ 412px (Nexus)  - inicio do bloco ----- */
+
+@media (min-width: 412px) {
+
+.logoUFC_adaptacoes {
+	width: auto;
+	padding: 10px;
+	margin: auto;
+	
+}	
+	
+	
+.navbar-nav {
+  display: flex;
+  /* flex-direction: column; */
+  /* padding-left: 0; */
+  /* margin-bottom: 0; */
+  list-style: none; 
+  
+  }	
+	
+li.nav-item {
+    /* padding: 0rem 0rem 0rem 0rem; */
+}	
+	
+	
+	
+	
+	
+	
+
+/* ////////////////////  ALTERAÃ‡Ã•ES NOVAS NO CSS \\\\\\\\\\\\\\\\\\\\\\\\\  */
+a:link { 
+  
+    text-decoration: none; 
+    
+}
+
+.MenuTopoAlteracao {
+    padding: 10px 0px 10px 0px;
+    margin: 0% 0% 0% 13%;
+    height: auto;
+    width: auto;
+    text-align: center;
+    
+}
+
+ul li {
+    padding: 2px 15px 2px 3px;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0em;
+    font-family: "PT Sans", sans-serif;
+    /* font-weight: 500; */
+    line-height: 1.5em;
+    color: inherit;
+    font-weight: bold;
+}
+
+.icones {
+    font-size: 25px;
+    /* height: 10px */
+        
+}
+
+.mr-auto {
+     margin: 10px 0px 0px 0px;
+     flex: auto;
+}
+
+
+/* alteraÃ§Ã£o importante na sombra do topo, pois ficava muito feio quando entrava nas pÃ¡ginas de posts */
+.sombraDivLogo {
+  : 0px 10px 50px -30px #868686;
+  -moz-: 0px 10px 50px -30px #868686;
+  -webkit-: 0px 10px 50px -30px #868686;
+  -o-: 0px 10px 50px -30px #868686; }
+
+
+.alteracaoFooterContatos{
+  padding: 0.3rem 0.1rem;
+  line-height: 1.5em;
+}
+
+h5, .h5 {
+  /*font-size: 1em;*/ 
+}
+
+.EspacamentoTopoMenuLateral {
+    padding: 10px 0px 0px 25px;
+    
+}
+
+h4 {
+    display: block;
+/*    -webkit-margin-before: 2.33em;
+    -webkit-margin-after: 2.33em;*/
+
+    
+    /*-webkit-margin-start: 50px;*/
+    /*-moz-margin-start: 50px;*/
+    
+    
+/*    -webkit-margin-end: 5px;*/
+    font-weight: bold;
+    -moz-word-wrap: break-word;
+    
+}
+
+h4, .h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    /* margin-top: 20px; */
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.5em;
+    font-style: normal;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+.parteTexto {
+/*    width: auto;
+    height: 100px;
+    background-color: white;
+    float: left;
+    z-index: 0;*/
+    
+}
+
+.dataPostagem{
+    height: 15px;
+    width: auto;
+    padding: 0px 0px 0px 5px;
+    margin: 5px 0px 10px 0px;
+    font-size: 12px;
+    font-style: italic;
+    color: #444444;
+    font-family: sans-serif;
+}
+
+/* alteraÃ§Ãµes no slideshow */
+
+.theme-default {
+    padding: 1px 1px 0px 1px;
+    background: #c5c0c0;
+    /*background: #01579b;*/
+}
+
+/* Caption styles - Leo */
+.nivo-caption {
+/*	position:absolute;
+	left:0px;
+	bottom:0px;
+	background: #d81f1f;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box;  Safari/Chrome, other WebKit 
+	-moz-box-sizing: border-box;     Firefox, other Gecko 
+	box-sizing: border-box;          Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:15px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+
+/* aqui jaz o primeiro efeito de sombra */
+
+/*.novoSlideShowAdaptacoes{
+  : 0px 3px 18px 1px #868686;
+  -moz-: 0px 3px 18px 1px #868686;
+  -webkit-: 0px 3px 18px 1px #868686;
+  -o-: 0px 3px 18px 1px #868686;
+}*/
+
+/* aqui jaz o segundo efeito de sombra */
+.novoSlideShowAdaptacoes{
+  : 0px 1px 10px 0px #868686;
+  -moz-: 0px 1px 10px 0px #868686;
+  -webkit-: 0px 1px 10px 0px #868686;
+  -o-: 0px 1px 10px 0px #868686;
+}
+
+.tituloSlideShowAdaptacoes{
+    
+    	position:relative;
+	left:50px;
+	bottom:50px;
+	background: white;
+	color:red;
+	width:100%;
+	z-index:8;
+	padding: 50px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+    
+}
+
+/* slideshow - final */
+
+.LinhaEspacamento {
+    line-height: 1.25em;
+}
+
+.resumoNoticia p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-style: italic;
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px -10px 5px;
+}
+
+table {
+    width: auto;
+    border: 1px #c5c0c0;
+    background-color: gray;
+}
+
+a:active {
+    font-weight: bold;
+    color: orange;
+}
+
+.textoVertical {
+  vertical-align: middle; }
+
+.table th,
+.table td {
+  vertical-align: middle; }
+
+.cantoTabelaCardapio {
+    background-color: #ececec;
+}
+
+.table-active, .table-active > th, .table-active > td {
+    background-color: rgba(228, 203, 203, 0.075);
+}
+
+
+
+ 
+ 
+.ladoTopicoTabelaCardapio{
+    background-color: #fbf7f7;
+}
+
+
+
+
+
+.menuLateralPosts{
+    float: right;
+    display: block;
+    width: 25%;
+    padding: 0px 0px 0px 10px;
+    white-space: nowrap;
+    /*border-left: 1px solid #ddd;*/ 
+    
+    
+    : -13px 0px 45px -24px #868686;
+    -moz-: -13px 0px 45px -24px #868686;
+    -webkit-: -13px 0px 45px -24px #868686;
+    -o-: -13px 0px 45px -24px #868686;
+}
+
+.MenuLateralNavPosts{
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 2px;
+}
+
+.itemMenuLateralPosts {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
+    margin-top: 0rem;
+    
+}
+
+.itemMenuLateralPostsAtivo{
+    font-weight: bold;
+    /*font-size: 15px;*/
+    text-decoration: red;
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #d2d1d1 solid;
+}
+
+.itemMenuLateralPostsNormal{
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #efefef solid;
+}
+
+/* criando multi colunas */
+
+.colunaArtigo{
+    width: 70%;
+    height: auto;
+    display: block;
+    float: left;
+
+}
+
+.addthis_toolbox{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px #e8e8e8 solid;
+    border-top: 1px #e8e8e8 solid;
+    margin-bottom: 15px;
+}
+
+.item-ordenados ol li{
+ 
+    list-style: none;
+    /* margin: 0px 0px 0px 0px; */
+    background: url(../imgs/ico-list.png) no-repeat 0px 5px;
+    padding: 5px 0px 5px 20px;
+    line-height: 1.3em;
+    text-align: justify;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #171717;
+
+}
+
+
+/* /////////////// FINALIZAÃ‡ÃƒO NAS MODIFICAÃ‡Ã•ES NOVA DO CSS \\\\\\\\\\\\\\\\ */
+
+
+/* /////////////// Css para imagem dos post e pÃ¡ginas \\\\\\\\\\\\\\\\ */
+img.alignright {float:right; margin:5px 1em 1em 0;}
+img.alignleft {float:left; margin:5px 1em 1em 0;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:5px 0 1em 1em}
+a img.alignleft {float:left; margin:5px 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+
+
+
+
+
+
+/* Ã�REA DE DESTAQUES */
+
+.tituloBannerDestaque {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaDestaquePostagens{
+    width: auto;
+    /* height: 880px; */
+    height: auto;
+    padding: 5px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.DestaquePrincipal {
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.BannerNoticias{
+    border: 1px #c5c0c0 solid;
+    margin: 0px 5px 5px 0px;
+    /*width: 550px;*/
+    /*height: 330px;*/
+    width: auto;
+    height: auto;
+}
+
+.DestaqueSecundarios{
+/*    float: left;
+    display: block;
+    padding: 0px 0px 5px 5px; */
+}
+
+.BannerSecundarios{
+    width: auto;
+    height: auto;
+    /* border: 1px #c5c0c0 solid; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+.resumoDestaqueBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 10px 5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+.resumoPequenosBanner{
+    font-family: sans-serif;
+    font-size: 12px;
+    /*padding: 5px;*/
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    /* width: 270px;
+    height: auto; */
+    margin: 5px auto 10px auto;
+}
+
+.divisoriaDestaques{
+    width: 95%;
+    height: 10px;
+    border-bottom: 1px #b5b5b5 dashed;
+    padding: 5px;
+    margin: 10px auto 15px auto;
+    text-align: center;
+    display: block;
+    float: none;
+}
+
+
+/* FIM DA Ã�REA DE DESTAQUES */
+
+
+
+
+
+
+
+/* Ã�REA DE PESQUISA */
+
+.tituloBannerPesquisa {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaPesquisaPostagens{
+    width: auto;
+    height: auto;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.PesquisaPrincipal {
+/*    display: block;*/
+    /*float: left;*/
+    width: auto;
+    height: auto;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+.BannerPesquisa{
+    /* border: 1px #c5c0c0 solid; */
+    margin: 0px auto 5px auto;
+    /*height: 350px;*/
+    /*width: 800px;*/
+}
+
+.PesquisaSecundarios{
+    /* float: left; */
+    display: block;
+    padding: 0px 0px 5px 0px;
+}
+
+.BannerPesquisaSecundarios{
+    width: auto;
+    height: auto;
+    /* border: 1px #c5c0c0 solid; */
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+
+.resumoPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 5px 12px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    /*margin: 0px auto 0px auto;*/
+}
+
+.resumoPequenosPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 0px 5px 0px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+
+/* FIM DA Ã�REA DE PESQUISA */
+
+
+
+
+
+
+/* Ã�REA DE EXTENSÃƒO */
+
+.tituloBannerExtensao {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 7px 5px 6px 5px;
+    background-color: white;
+}
+
+.areaExtensaoPostagens{
+    width: auto;
+    height: 625px;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.ExtensaoPrincipal {
+    display: block;
+    float: left;
+	width: auto;
+    height: auto;
+}
+
+.BannerExtensao{
+    /* border: 1px #c5c0c0 solid; */
+    /* margin: 0px 5px 5px 0px; */
+    width: auto;
+    height: auto;
+}
+
+.ExtensaoSecundarios{
+    /* float: left; */
+    display: block;
+    padding: 10px 0px 10px 0px;
+}
+
+.BannerExtensaoSecundarios{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.resumoExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+.resumoPequenosExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    
+    padding: 5px 5px 5px 12px; 
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+
+/* FIM DA Ã�REA DE EXTENSÃƒO */
+
+
+
+
+
+.zebrado {
+    background-image: url(../imgs/zebrado.png);
+    border: 0px;
+    padding: 10px 0px 9px 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+.BotoesLinksExtensao {
+    width: auto;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 0px auto 0px auto;
+    /*background-color: #d2d1d1;*/
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.BotoesLinksExtensao2 {
+    width: auto;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 20px auto 5px auto;
+    /*background-color: #d2d1d1;*/
+    /* vertical-align: middle; */
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+
+.LadoBannerPrincipalExtensao{
+    width: auto;
+    height: auto;
+    /*background-color: red;*/
+    display: block;
+    float: left;
+}
+
+
+.LadoBannerSecundarioExtensao {
+    width: auto;
+    height: auto;
+    /*background-color: blue;*/
+    display: block;
+    float: right;
+    margin: 0px 0px 20px 0px;
+}
+
+.ParteBannerEmbaixoTopicos{
+    width: auto;
+    height: auto;
+    /*background-color: green;*/
+    display: block;
+    float: left;
+    /*vertical-align: bottom;*/
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0% 0px 20%;
+}
+
+
+.ParteBannerDestaquePrincipal {
+    width: auto;
+    height: auto;
+    display: block;
+    /* float: left; */
+    /*background-color: red;*/
+}
+
+.ParteBannerDestaqueSecundario{
+    /* width: auto; */
+    /* height: 385px; */
+     display: block;  
+    /* float: right; */
+    /*background-color: blueviolet;*/
+    margin: 0px auto 0px auto;
+}
+
+.ParteBannerDestaqueSecundario2{
+    width: auto;
+    height: auto;
+    display: block;
+    /* float: none; */
+    /*background-color: blueviolet;*/
+}
+
+
+.AlinhamentoParagrafoBotoesExtensao{
+    align-items: center;
+    text-align: center;
+}
+
+
+.MaisNoticiasDestaques{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px 20px 0px;
+    margin: 5px 0px 0px 0px;
+    /* float: left; */
+    display: block;
+}
+
+
+.iconePesquisaForm {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+    width: 50px;
+}
+
+/*.widget-title {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+}*/
+
+
+
+
+
+/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+.PesquisaResultadoPostAutorData{
+    font-size: 13px;
+    padding: 15px 0px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    border-bottom: 2px #eae9e9 dotted;
+    float: left;
+    width: 100%;
+}
+
+
+.entry-title{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.entry-summary {
+    font-size: 13px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    color: #696666;
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+
+/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+
+
+/* a partir daqui fica o modelo 2 do footer */
+
+.FooterSegundoModelo {
+    background-color: #01579b;
+    color: white;
+}
+
+
+.espaco1 {
+  
+  color: white;
+}
+
+.espaco2 {
+  
+  color: white;
+}
+
+.espaco3 {
+  
+  color: white;
+}
+
+.espaco4 {
+  
+  color: white;
+}
+
+.recuoEsquerda {
+
+    color: white;
+}
+
+.icones_redes_sociais_rodape {
+    
+    color: white;
+    
+}
+
+.iconesModelo2{
+    color: white;
+}
+
+/* modelo 2 do footer */
+
+
+
+/* modelo 2 do header */
+
+.novoFundoAlternativo {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.novoFundoAlternativo2 {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.sombraDivTopo {
+    /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+    
+}
+
+/* modelo 2 do header */
+
+
+.GovernoFederalLogoFooter {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    /* margin: 0px auto 0px auto; */
+    padding: 35px;
+}
+
+.espaco5 {
+     margin-left: 0em;
+}
+
+.DiminuirrecuoEsquerda {
+  text-indent: 0px; 
+}
+
+
+.wp-post-image {
+    /* width: auto; */
+    width: 100%;
+    height: auto;
+}
+
+
+ol, ul, dl {
+     text-align: center;
+ }
+
+.alinhamentoCentral {
+    margin: 0px auto 0px auto;
+}
+
+
+ }
+
+/* ------ 412px  - final do bloco ----- */
+ 
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* DISPOSITIVOS MÃ“VEIS */
+
+/* ------ 576px  - inicio do bloco ----- */
+
+@media (min-width: 576px) {
+
+	
+	
+.logo_margem {
+    text-align: center;
+    margin: auto;
+}	
+	
+	
+	
+.logoUFC_adaptacoes {
+	width: 100%;
+
+	
+}
+	
+	
+ol, ul, dl {
+     text-align: center;
+ }
+
+
+
+.navbar-nav {
+  display: flex;
+  /* flex-direction: column; */
+  /* padding-left: 0; */
+  /* margin-bottom: 0; */
+  list-style: none; 
+  
+  }	
+	
+li.nav-item {
+    /* padding: 0rem 0rem 0rem 0rem; */
+}	
+	
+	
+	
+	
+	
+	
+
+/* ////////////////////  ALTERAÃ‡Ã•ES NOVAS NO CSS \\\\\\\\\\\\\\\\\\\\\\\\\  */
+a:link { 
+  
+    text-decoration: none; 
+    
+}
+
+.MenuTopoAlteracao {
+    padding: 10px 0px 10px 0px;
+    margin: 0% 0% 0% 13%;
+    height: auto;
+    width: auto;
+    text-align: center;
+    
+}
+
+ul li {
+    padding: 2px 15px 2px 3px;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0em;
+    font-family: "PT Sans", sans-serif;
+    /* font-weight: 500; */
+    line-height: 1.5em;
+    color: inherit;
+    font-weight: bold;
+}
+
+.icones {
+    font-size: 25px;
+    /* height: 10px */
+        
+}
+
+.mr-auto {
+     margin: 10px 0px 0px 0px;
+     flex: auto;
+}
+
+
+/* alteraÃ§Ã£o importante na sombra do topo, pois ficava muito feio quando entrava nas pÃ¡ginas de posts */
+.sombraDivLogo {
+  : 0px 10px 50px -30px #868686;
+  -moz-: 0px 10px 50px -30px #868686;
+  -webkit-: 0px 10px 50px -30px #868686;
+  -o-: 0px 10px 50px -30px #868686; }
+
+
+.alteracaoFooterContatos{
+  padding: 0.3rem 0.1rem;
+  line-height: 1.5em;
+}
+
+h5, .h5 {
+  /*font-size: 1em;*/ 
+}
+
+.EspacamentoTopoMenuLateral {
+    padding: 10px 0px 0px 25px;
+    
+}
+
+h4 {
+    display: block;
+/*    -webkit-margin-before: 2.33em;
+    -webkit-margin-after: 2.33em;*/
+
+    
+    /*-webkit-margin-start: 50px;*/
+    /*-moz-margin-start: 50px;*/
+    
+    
+/*    -webkit-margin-end: 5px;*/
+    font-weight: bold;
+    -moz-word-wrap: break-word;
+    
+}
+
+h4, .h4 {
+    font-size: 1.4rem;
+}
+
+p {
+    /* margin-top: 20px; */
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.5em;
+    font-style: normal;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+.parteTexto {
+/*    width: auto;
+    height: 100px;
+    background-color: white;
+    float: left;
+    z-index: 0;*/
+    
+}
+
+.dataPostagem{
+    height: 15px;
+    width: auto;
+    padding: 0px 0px 0px 5px;
+    margin: 5px 0px 10px 0px;
+    font-size: 12px;
+    font-style: italic;
+    color: #444444;
+    font-family: sans-serif;
+}
+
+/* alteraÃ§Ãµes no slideshow */
+
+.theme-default {
+    padding: 1px 1px 0px 1px;
+    background: #c5c0c0;
+    /*background: #01579b;*/
+}
+
+/* Caption styles - Leo */
+.nivo-caption {
+/*	position:absolute;
+	left:0px;
+	bottom:0px;
+	background: #d81f1f;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box;  Safari/Chrome, other WebKit 
+	-moz-box-sizing: border-box;     Firefox, other Gecko 
+	box-sizing: border-box;          Opera/IE 8+ */
+}
+.nivo-caption p {
+	padding:15px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+
+/* aqui jaz o primeiro efeito de sombra */
+
+/*.novoSlideShowAdaptacoes{
+  : 0px 3px 18px 1px #868686;
+  -moz-: 0px 3px 18px 1px #868686;
+  -webkit-: 0px 3px 18px 1px #868686;
+  -o-: 0px 3px 18px 1px #868686;
+}*/
+
+/* aqui jaz o segundo efeito de sombra */
+.novoSlideShowAdaptacoes{
+  : 0px 1px 10px 0px #868686;
+  -moz-: 0px 1px 10px 0px #868686;
+  -webkit-: 0px 1px 10px 0px #868686;
+  -o-: 0px 1px 10px 0px #868686;
+}
+
+.tituloSlideShowAdaptacoes{
+    
+    	position:relative;
+	left:50px;
+	bottom:50px;
+	background: white;
+	color:red;
+	width:100%;
+	z-index:8;
+	padding: 50px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+    
+}
+
+/* slideshow - final */
+
+.LinhaEspacamento {
+    line-height: 1.25em;
+}
+
+.resumoNoticia p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-style: italic;
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px -10px 5px;
+}
+
+table {
+    width: auto;
+    border: 1px #c5c0c0;
+    background-color: gray;
+}
+
+a:active {
+    font-weight: bold;
+    color: orange;
+}
+
+.textoVertical {
+  vertical-align: middle; }
+
+.table th,
+.table td {
+  vertical-align: middle; }
+
+.cantoTabelaCardapio {
+    background-color: #ececec;
+}
+
+.table-active, .table-active > th, .table-active > td {
+    background-color: rgba(228, 203, 203, 0.075);
+}
+
+
+
+ 
+ 
+.ladoTopicoTabelaCardapio{
+    background-color: #fbf7f7;
+}
+
+
+
+
+
+.menuLateralPosts{
+    float: right;
+    display: block;
+    width: 25%;
+    padding: 0px 0px 0px 10px;
+    white-space: nowrap;
+    /*border-left: 1px solid #ddd;*/ 
+    
+    
+    : -13px 0px 45px -24px #868686;
+    -moz-: -13px 0px 45px -24px #868686;
+    -webkit-: -13px 0px 45px -24px #868686;
+    -o-: -13px 0px 45px -24px #868686;
+}
+
+.MenuLateralNavPosts{
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 2px;
+}
+
+.itemMenuLateralPosts {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 0.2rem;
+    margin-top: 0rem;
+    
+}
+
+.itemMenuLateralPostsAtivo{
+    font-weight: bold;
+    /*font-size: 15px;*/
+    text-decoration: red;
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #d2d1d1 solid;
+}
+
+.itemMenuLateralPostsNormal{
+    padding: 10px 5px 5px 0px;
+    border-bottom: 1px #efefef solid;
+}
+
+/* criando multi colunas */
+
+.colunaArtigo{
+    width: 70%;
+    height: auto;
+    display: block;
+    float: left;
+
+}
+
+.addthis_toolbox{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px #e8e8e8 solid;
+    border-top: 1px #e8e8e8 solid;
+    margin-bottom: 15px;
+}
+
+.item-ordenados ol li{
+ 
+    list-style: none;
+    /* margin: 0px 0px 0px 0px; */
+    background: url(../imgs/ico-list.png) no-repeat 0px 5px;
+    padding: 5px 0px 5px 20px;
+    line-height: 1.3em;
+    text-align: justify;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #171717;
+
+}
+
+
+/* /////////////// FINALIZAÃ‡ÃƒO NAS MODIFICAÃ‡Ã•ES NOVA DO CSS \\\\\\\\\\\\\\\\ */
+
+
+/* /////////////// Css para imagem dos post e pÃ¡ginas \\\\\\\\\\\\\\\\ */
+img.alignright {float:right; margin:5px 1em 1em 0;}
+img.alignleft {float:left; margin:5px 1em 1em 0;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:5px 0 1em 1em}
+a img.alignleft {float:left; margin:5px 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+
+
+
+
+
+
+/* Ã�REA DE DESTAQUES */
+
+.tituloBannerDestaque {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaDestaquePostagens{
+    width: auto;
+    /* height: 880px; */
+    height: auto;
+    padding: 5px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+
+.DestaquePrincipal {
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.BannerNoticias{
+    border: 1px #c5c0c0 solid;
+    margin: 0px 5px 5px 0px;
+    /*width: 550px;*/
+    /*height: 330px;*/
+    width: auto;
+    height: auto;
+}
+
+.DestaqueSecundarios{
+/*    float: left;
+    display: block;
+    padding: 0px 0px 5px 5px; */
+}
+
+.BannerSecundarios{
+    width: auto;
+    height: auto;
+    /* border: 1px #c5c0c0 solid; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+.resumoDestaqueBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 10px 5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+.resumoPequenosBanner{
+    font-family: sans-serif;
+    font-size: 12px;
+    /*padding: 5px;*/
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    /* width: 270px;
+    height: auto; */
+    margin: 5px auto 10px auto;
+}
+
+.divisoriaDestaques{
+    width: 95%;
+    height: 10px;
+    border-bottom: 1px #b5b5b5 dashed;
+    padding: 5px;
+    margin: 10px auto 15px auto;
+    text-align: center;
+    display: block;
+    float: none;
+}
+
+
+/* FIM DA Ã�REA DE DESTAQUES */
+
+
+
+
+
+
+
+/* Ã�REA DE PESQUISA */
+
+.tituloBannerPesquisa {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0px 10px;
+}
+
+.areaPesquisaPostagens{
+    width: auto;
+    height: auto;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.PesquisaPrincipal {
+/*    display: block;*/
+    /*float: left;*/
+    width: auto;
+    height: auto;
+    margin: 0px auto 15px auto;
+    text-align: center;
+}
+
+.BannerPesquisa{
+    /* border: 1px #c5c0c0 solid; */
+    margin: 0px auto 5px auto;
+    /*height: 350px;*/
+    /*width: 800px;*/
+}
+
+.PesquisaSecundarios{
+    /* float: left; */
+    display: block;
+    padding: 0px 0px 5px 0px;
+}
+
+.BannerPesquisaSecundarios{
+    width: auto;
+    height: auto;
+    /* border: 1px #c5c0c0 solid; */
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+
+.resumoPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 5px 5px 12px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    /*margin: 0px auto 0px auto;*/
+}
+
+.resumoPequenosPesquisaBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px 0px 5px 0px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+
+/* FIM DA Ã�REA DE PESQUISA */
+
+
+
+
+
+
+/* Ã�REA DE EXTENSÃƒO */
+
+.tituloBannerExtensao {
+    font-size: 21px;
+    font-weight: bold;
+    padding: 7px 5px 6px 5px;
+    background-color: white;
+}
+
+.areaExtensaoPostagens{
+    width: auto;
+    height: 625px;
+/*    padding: 5px;
+    margin: 5px;*/
+}
+
+.ExtensaoPrincipal {
+    display: block;
+    float: left;
+	width: auto;
+    height: auto;
+}
+
+.BannerExtensao{
+    /* border: 1px #c5c0c0 solid; */
+    /* margin: 0px 5px 5px 0px; */
+    width: auto;
+    height: auto;
+}
+
+.ExtensaoSecundarios{
+    /* float: left; */
+    display: block;
+    padding: 10px 0px 10px 0px;
+}
+
+.BannerExtensaoSecundarios{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.resumoExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+.resumoPequenosExtensaoBanner{
+    font-family: sans-serif;
+    font-size: 13px;
+    
+    padding: 5px 5px 5px 12px; 
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+
+/* FIM DA Ã�REA DE EXTENSÃƒO */
+
+
+
+
+
+.zebrado {
+    background-image: url(../imgs/zebrado.png);
+    border: 0px;
+    padding: 10px 0px 9px 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+.BotoesLinksExtensao {
+    width: auto;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 0px auto 0px auto;
+    /*background-color: #d2d1d1;*/
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.BotoesLinksExtensao2 {
+    width: auto;
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    margin: 0px 0px 5px 30px;
+    /*background-color: #d2d1d1;*/
+    /* vertical-align: middle; */
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+
+.LadoBannerPrincipalExtensao{
+    width: auto;
+    height: auto;
+    /*background-color: red;*/
+    display: block;
+    float: left;
+}
+
+
+.LadoBannerSecundarioExtensao {
+    width: auto;
+    height: auto;
+    /*background-color: blue;*/
+    display: block;
+    float: right;
+    margin: 0px 0px 20px 0px;
+}
+
+.ParteBannerEmbaixoTopicos{
+    width: auto;
+    height: auto;
+    /*background-color: green;*/
+    display: block;
+    float: left;
+    /*vertical-align: bottom;*/
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0% 0px 10%;
+}
+
+
+.ParteBannerDestaquePrincipal {
+    width: auto;
+    height: auto;
+    display: block;
+    /* float: left; */
+    /*background-color: red;*/
+}
+
+.ParteBannerDestaqueSecundario{
+    /* width: auto; */
+    /* height: 385px; */
+     display: block;  
+    /* float: right; */
+    /*background-color: blueviolet;*/
+    margin: 0px auto 0px auto;
+}
+
+.ParteBannerDestaqueSecundario2{
+    width: auto;
+    height: auto;
+    display: block;
+    /* float: none; */
+    /*background-color: blueviolet;*/
+}
+
+
+.AlinhamentoParagrafoBotoesExtensao{
+    align-items: center;
+    text-align: center;
+}
+
+
+.MaisNoticiasDestaques{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px 20px 0px;
+    margin: 5px 0px 0px 0px;
+    /* float: left; */
+    display: block;
+}
+
+.MaisNoticiasDestaques2{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40% 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
+    /* float: left; */
+    display: block;
+}
+
+
+.iconePesquisaForm {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+    width: 50px;
+}
+
+/*.widget-title {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+}*/
+
+
+
+
+
+/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+.PesquisaResultadoPostAutorData{
+    font-size: 13px;
+    padding: 15px 0px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    border-bottom: 2px #eae9e9 dotted;
+    float: left;
+    width: 100%;
+}
+
+
+.entry-title{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+.entry-summary {
+    font-size: 13px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    color: #696666;
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+
+/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+
+
+/* a partir daqui fica o modelo 2 do footer */
+
+.FooterSegundoModelo {
+    background-color: #01579b;
+    color: white;
+}
+
+
+.espaco1 {
+  
+  color: white;
+}
+
+.espaco2 {
+  
+  color: white;
+}
+
+.espaco3 {
+  
+  color: white;
+}
+
+.espaco4 {
+  
+  color: white;
+}
+
+.recuoEsquerda {
+
+    color: white;
+}
+
+.icones_redes_sociais_rodape {
+    
+    color: white;
+    
+}
+
+.iconesModelo2{
+    color: white;
+}
+
+/* modelo 2 do footer */
+
+
+
+/* modelo 2 do header */
+
+.novoFundoAlternativo {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.novoFundoAlternativo2 {
+        /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+        /*background-color: red;*/
+}
+
+.sombraDivTopo {
+    /*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+    
+}
+
+/* modelo 2 do header */
+
+
+.GovernoFederalLogoFooter {
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    /* margin: 0px auto 0px auto; */
+    padding: 35px;
+}
+
+.espaco5 {
+     margin-left: 0em;
+}
+
+.DiminuirrecuoEsquerda {
+  text-indent: 0px; 
+}
+
+
+.wp-post-image {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.alinhamentoCentral {
+    margin: 0px auto 0px auto;
+}
+
+
+ }
+
+/* ------ 576px  - final do bloco ----- */
+ 
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* DISPOSITIVOS MÃ“VEIS */
+
+/* ------ 768px (iPad) - inicio do bloco ----- */
+
+@media (min-width: 768px) {
+
+.logoUFC_adaptacoes {
+    width: 50%;
+}	
+
+
+.nav {
+ 
+ flex-wrap: nowrap;
+ 
+}
+
+.logo_margem {
+    padding: 0.7em 0em 1em 0em;
+}
+	
+.img-fluid {
+    max-width: 140%;
+ 
+}	
+
+.form-inline .form-control {
+    width: 100px;
+}
+
+.mr-sm-2 {
+    margin-left: 0.3rem !important;
+}
+	
+	
+ol, ul, dl {
+     text-align: left; 
+ }
+
+	/* ////////////////////  ALTERAÃ‡Ã•ES NOVAS NO CSS \\\\\\\\\\\\\\\\\\\\\\\\\  */
+	a:link {
+		text-decoration: none;
+	}
+	.MenuTopoAlteracao {
+		padding: 5px;
+		margin: 0px -16px 0px 260px;
+		height: auto;
+		width: auto;
+	}
+	ul li {
+		padding: 2px 15px 2px 3px;
+		line-height: 1.5em;
+	}
+	h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+		margin-bottom: 0em;
+		font-family: "PT Sans", sans-serif;
+		/* font-weight: 500; */
+		line-height: 1.5em;
+		color: inherit;
+		font-weight: bold;
+	}
+	.icones {
+		font-size: 25px;
+		height: 10px
+	}
+	.mr-auto {
+		margin: 10px 0px 0px 0px;
+	}
+
+	/* alteraÃ§Ã£o importante na sombra do topo, pois ficava muito feio quando entrava nas pÃ¡ginas de posts */
+	.sombraDivLogo {
+		: 0px 10px 50px -30px #868686;
+		-moz-: 0px 10px 50px -30px #868686;
+		-webkit-: 0px 10px 50px -30px #868686;
+		-o-: 0px 10px 50px -30px #868686;
+	}
+	.alteracaoFooterContatos {
+		padding: 0.3rem 0.1rem;
+		line-height: 1.5em;
+	}
+	h5, .h5 {
+		/*font-size: 1em;*/
+		
+	}
+	.EspacamentoTopoMenuLateral {
+		padding: 10px 0px 0px 25px;
+	}
+	h4 {
+		display: block;
+		/*    -webkit-margin-before: 2.33em;
+    -webkit-margin-after: 2.33em;*/
+		/*-webkit-margin-start: 50px;*/
+		/*-moz-margin-start: 50px;*/
+		/*    -webkit-margin-end: 5px;*/
+		font-weight: bold;
+		-moz-word-wrap: break-word;
+	}
+	h4, .h4 {
+		font-size: 1.4rem;
+	}
+	p {
+		/* margin-top: 20px; */
+		margin-bottom: 1rem;
+		text-align: justify;
+		line-height: 1.5em;
+		font-style: normal;
+		color: #333333;
+		font-family: sans-serif;
+		font-size: 14px;
+	}
+	.parteTexto {
+		/*    width: auto;
+    height: 100px;
+    background-color: white;
+    float: left;
+    z-index: 0;*/
+		
+	}
+	.dataPostagem {
+		height: 15px;
+		width: auto;
+		padding: 0px 0px 0px 5px;
+		margin: 5px 0px 10px 0px;
+		font-size: 12px;
+		font-style: italic;
+		color: #444444;
+		font-family: sans-serif;
+	}
+
+	/* alteraÃ§Ãµes no slideshow */
+	.theme-default {
+		padding: 1px 1px 0px 1px;
+		background: #c5c0c0;
+		/*background: #01579b;*/
+	}
+
+	/* Caption styles - Leo */
+	.nivo-caption {
+		/*	position:absolute;
+	left:0px;
+	bottom:0px;
+	background: #d81f1f;
+	color:#fff;
+	width:100%;
+	z-index:8;
+	padding: 5px 10px;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+        
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=8);
+	-webkit-box-sizing: border-box;  Safari/Chrome, other WebKit 
+	-moz-box-sizing: border-box;     Firefox, other Gecko 
+	box-sizing: border-box;          Opera/IE 8+ */
+		
+	}
+	.nivo-caption p {
+		padding: 15px;
+		margin: 0;
+	}
+	.nivo-caption a {
+		display: inline !important;
+	}
+	.nivo-html-caption {
+		display: none;
+	}
+
+	/* aqui jaz o primeiro efeito de sombra */
+
+	/*.novoSlideShowAdaptacoes{
+  : 0px 3px 18px 1px #868686;
+  -moz-: 0px 3px 18px 1px #868686;
+  -webkit-: 0px 3px 18px 1px #868686;
+  -o-: 0px 3px 18px 1px #868686;
+}*/
+
+	/* aqui jaz o segundo efeito de sombra */
+	.novoSlideShowAdaptacoes {
+		: 0px 1px 10px 0px #868686;
+		-moz-: 0px 1px 10px 0px #868686;
+		-webkit-: 0px 1px 10px 0px #868686;
+		-o-: 0px 1px 10px 0px #868686;
+	}
+	.tituloSlideShowAdaptacoes {
+		position: relative;
+		left: 50px;
+		bottom: 50px;
+		background: white;
+		color: red;
+		width: 100%;
+		z-index: 8;
+		padding: 50px 10px;
+		opacity: 0.8;
+		overflow: hidden;
+		display: none;
+		-moz-opacity: 0.8;
+		filter: alpha(opacity = 8);
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box; /* Firefox, other Gecko */
+		box-sizing: border-box; /* Opera/IE 8+ */
+	}
+
+	/* slideshow - final */
+	.LinhaEspacamento {
+		line-height: 1.25em;
+	}
+	.resumoNoticia p {
+		font-family: sans-serif;
+		text-align: justify;
+		font-style: italic;
+		font-size: 13px;
+		padding: 0px 0px 0px 0px;
+		margin: 10px 0px -10px 5px;
+	}
+	table {
+		width: auto;
+		border: 1px #c5c0c0;
+		background-color: gray;
+	}
+	a:active {
+		font-weight: bold;
+		color: orange;
+	}
+	.textoVertical {
+		vertical-align: middle;
+	}
+	.table th, .table td {
+		vertical-align: middle;
+	}
+	.cantoTabelaCardapio {
+		background-color: #ececec;
+	}
+	.table-active, .table-active>th, .table-active>td {
+		background-color: rgba(228, 203, 203, 0.075);
+	}
+	.ladoTopicoTabelaCardapio {
+		background-color: #fbf7f7;
+	}
+	.menuLateralPosts {
+		float: right;
+		display: block;
+		width: 25%;
+		padding: 0px 0px 0px 10px;
+		white-space: nowrap;
+		/*border-left: 1px solid #ddd;*/
+		: -13px 0px 45px -24px #868686;
+		-moz-: -13px 0px 45px -24px #868686;
+		-webkit-: -13px 0px 45px -24px #868686;
+		-o-: -13px 0px 45px -24px #868686;
+	}
+	.MenuLateralNavPosts {
+		line-height: 1.5em;
+		text-align: justify;
+		padding: 2px;
+	}
+	.itemMenuLateralPosts {
+		width: auto;
+		height: auto;
+		vertical-align: middle;
+		margin-bottom: 0.2rem;
+		margin-top: 0rem;
+	}
+	.itemMenuLateralPostsAtivo {
+		font-weight: bold;
+		/*font-size: 15px;*/
+		text-decoration: red;
+		padding: 10px 5px 5px 0px;
+		border-bottom: 1px #d2d1d1 solid;
+	}
+	.itemMenuLateralPostsNormal {
+		padding: 10px 5px 5px 0px;
+		border-bottom: 1px #efefef solid;
+	}
+
+	/* criando multi colunas */
+	.colunaArtigo {
+		width: 70%;
+		height: auto;
+		display: block;
+		float: left;
+	}
+	.addthis_toolbox {
+		padding: 10px 0px 10px 0px;
+		border-bottom: 1px #e8e8e8 solid;
+		border-top: 1px #e8e8e8 solid;
+		margin-bottom: 15px;
+	}
+	.item-ordenados ol li {
+		list-style: none;
+		/* margin: 0px 0px 0px 0px; */
+		background: url(../imgs/ico-list.png) no-repeat 0px 5px;
+		padding: 5px 0px 5px 20px;
+		line-height: 1.3em;
+		text-align: justify;
+		font-size: 14px;
+		font-family: sans-serif;
+		color: #171717;
+	}
+
+	/* /////////////// FINALIZAÃ‡ÃƒO NAS MODIFICAÃ‡Ã•ES NOVA DO CSS \\\\\\\\\\\\\\\\ */
+
+	/* /////////////// Css para imagem dos post e pÃ¡ginas \\\\\\\\\\\\\\\\ */
+	img.alignright {
+		float: right;
+		margin: 5px 1em 1em 0;
+	}
+	img.alignleft {
+		float: left;
+		margin: 5px 1em 1em 0;
+	}
+	img.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+	a img.alignright {
+		float: right;
+		margin: 5px 0 1em 1em
+	}
+	a img.alignleft {
+		float: left;
+		margin: 5px 1em 1em 0
+	}
+	a img.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+
+	/* Ã�REA DE DESTAQUES */
+	.tituloBannerDestaque {
+		font-size: 21px;
+		font-weight: bold;
+		padding: 20px 0px 10px;
+	}
+	.areaDestaquePostagens {
+		width: auto;
+    	height: auto;
+    	padding: 5px 0px 10px 0px;
+    	margin: 10px 0px 10px 0px;
+    	display: block;
+    	float: left;
+	}
+	.DestaquePrincipal {
+		display: block;
+		float: left;
+		/*    width: 825px;*/
+		height: auto;
+		width: 100%;
+	}
+	.BannerNoticias {
+		border: 1px #c5c0c0 solid;
+		margin: 0px 5px 5px 0px;
+		/*width: 550px;*/
+		/*height: 330px;*/
+		width: auto;
+		height: auto;
+	}
+	.DestaqueSecundarios {
+		float: left;
+		display: block;
+		padding: 0px 0px 5px 5px;
+		width: 50%;
+		height: 10.5em;
+	}
+	.BannerSecundarios {
+		width: 100%;
+		height: auto;
+		border: 1px #c5c0c0 solid;
+	}
+	.resumoDestaqueBanner {
+		font-family: sans-serif;
+		font-size: 13px;
+		padding: 5px 5px 10px 5px;
+		line-height: 1.5em;
+		text-align: justify;
+		font-weight: bold;
+		/*width: 550px;*/
+		height: auto;
+	}
+	.resumoPequenosBanner {
+		font-family: sans-serif;
+		font-size: 12px;
+		/*padding: 5px;*/
+		line-height: 1.5em;
+		text-align: justify;
+		font-weight: bold;
+		width: auto;
+		height: auto;
+	}
+	.divisoriaDestaques {
+		width: auto;
+		height: 10px;
+		border-bottom: 1px #b5b5b5 dashed;
+		padding: 5px;
+		display: block;
+		margin: 10px 0px 15px 0px;
+	}
+
+	/* FIM DA Ã�REA DE DESTAQUES */
+
+	/* Ã�REA DE PESQUISA */
+	.tituloBannerPesquisa {
+		font-size: 21px;
+		font-weight: bold;
+		padding: 20px 0px 10px;
+	}
+	.areaPesquisaPostagens {
+		width: auto;
+		height: auto;
+		float: left;
+		/*    padding: 5px;
+    margin: 5px;*/
+	}
+	.PesquisaPrincipal {
+		/*    display: block;*/
+		/*float: left;*/
+		/*    width: 825px;*/
+		height: auto;
+		margin: 0px auto 15px auto;
+		text-align: center;
+	}
+	.BannerPesquisa {
+		/* border: 1px #c5c0c0 solid; */
+		margin: 0px auto 5px auto;
+		/*height: 350px;*/
+		width: 100%;
+	}
+	.PesquisaSecundarios {
+		float: left;
+		display: block;
+		padding: 0px 0px 5px 10px;
+		width: 50%;
+	}
+	.BannerPesquisaSecundarios {
+		width: auto;
+		/* height: auto; */
+		float: left;
+		border: 0px #c5c0c0 solid;
+	}
+	.resumoPesquisaBanner {
+		font-family: sans-serif;
+		font-size: 13px;
+		padding: 5px 5px 5px 12px;
+		line-height: 1.5em;
+		text-align: justify;
+		font-weight: bold;
+		width: auto;
+		height: auto;
+		/*margin: 0px auto 0px auto;*/
+	}
+	.resumoPequenosPesquisaBanner {
+		font-family: sans-serif;
+		font-size: 13px;
+		padding: 5px;
+		line-height: 1.5em;
+		text-align: justify;
+		font-weight: bold;
+		width: auto;
+		height: auto;
+	}
+	
+	.BannerDestaque {
+		width: 100%;
+	}
+
+	/* FIM DA Ã�REA DE PESQUISA */
+
+	/* Ã�REA DE EXTENSÃƒO */
+	.tituloBannerExtensao {
+		font-size: 21px;
+		font-weight: bold;
+		padding: 7px 5px 6px 0px;
+		background-color: white;
+	}
+	.areaExtensaoPostagens {
+		width: auto;
+		height: 625px;
+		/*    padding: 5px;
+    margin: 5px;*/
+	}
+	.ExtensaoPrincipal {
+		display: block;
+		float: left;
+		/*    width: 825px;*/
+		height: auto;
+	}
+	.BannerExtensao {
+		border: 1px #c5c0c0 solid;
+		margin: 0px 5px 5px 0px;
+		width: 500px;
+		height: auto;
+	}
+	.ExtensaoSecundarios {
+		float: left;
+		display: block;
+		padding: 0px 0px 10px 0px;
+	}
+	.BannerExtensaoSecundarios {
+		width: 300px;
+		height: auto;
+	}
+	.resumoExtensaoBanner {
+		font-family: sans-serif;
+		font-size: 13px;
+		padding: 5px;
+		line-height: 1.5em;
+		text-align: justify;
+		font-weight: bold;
+		width: 500px;
+		height: auto;
+	}
+	.resumoPequenosExtensaoBanner {
+		font-family: sans-serif;
+		font-size: 13px;
+		padding: 5px;
+		line-height: 1.5em;
+		text-align: justify;
+		font-weight: bold;
+		width: 300px;
+		height: auto;
+	}
+
+	/* FIM DA Ã�REA DE EXTENSÃƒO */
+	.zebrado {
+		background-image: url(../imgs/zebrado.png);
+		border: 0px;
+		padding: 10px 0px 9px 0px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		background-color: whitesmoke;
+	}
+	.BotoesLinksExtensao {
+		width: 230px;
+		/*height: 100px;*/
+		/*padding: 10px;*/
+		margin: 0px auto 0px auto;
+		/*background-color: #d2d1d1;*/
+		vertical-align: middle;
+		display: block;
+		float: left;
+	}
+	.BotoesLinksExtensao2 {
+		width: 230px;
+		/*height: 100px;*/
+		/*padding: 10px;*/
+		margin: 0px auto 0px auto;
+		/*background-color: #d2d1d1;*/
+		vertical-align: middle;
+		display: block;
+		float: right;
+	}
+	.LadoBannerPrincipalExtensao {
+		width: 510px;
+		height: 400px;
+		/*background-color: red;*/
+		display: block;
+		float: left;
+	}
+	.LadoBannerSecundarioExtensao {
+		width: 314px;
+		height: 580px;
+		/*background-color: blue;*/
+		display: block;
+		float: right;
+	}
+	.ParteBannerEmbaixoTopicos {
+		width: 510px;
+		height: auto;
+		/*background-color: green;*/
+		display: block;
+		float: left;
+		/*vertical-align: bottom;*/
+	}
+	.ParteBannerDestaquePrincipal {
+		width: auto;
+		height: auto;
+		display: block;
+		float: left;
+		/*background-color: red;*/
+	}
+	.ParteBannerDestaqueSecundario {
+		width: 270px;
+		height: 385px;
+		display: block;
+		float: right;
+		/*background-color: blueviolet;*/
+	}
+	.ParteBannerDestaqueSecundario2 {
+		width: auto;
+		height: auto;
+		display: block;
+		float: none;
+		/*background-color: blueviolet;*/
+	}
+	.AlinhamentoParagrafoBotoesExtensao {
+		align-items: center;
+		text-align: center;
+	}
+	.MaisNoticiasDestaques {
+		font-size: 14px;
+    	font-weight: bold;
+    	text-align: right;
+    	padding: 0px 15px 15px 0px;
+    	margin: 5px 0px 0px 0px;
+	}
+	.iconePesquisaForm {
+		background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+		padding-left: 30px;
+		width: 50px;
+	}
+
+	/*.widget-title {
+    background: url(../imgs/icone.png) no-repeat scroll 5px 15px;
+    padding-left: 30px;
+}*/
+
+	/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+	.PesquisaResultadoPostAutorData {
+		font-size: 13px;
+		padding: 15px 0px;
+		line-height: 1.5em;
+		font-family: sans-serif;
+		border-bottom: 2px #eae9e9 dotted;
+		float: left;
+    	width: 100%;
+	}
+	.entry-title {
+		font-family: sans-serif;
+		font-size: 18px;
+		line-height: 1.4em;
+		text-align: justify;
+	}
+	.entry-summary {
+		font-size: 13px;
+    	line-height: 1.5em;
+    	font-family: sans-serif;
+    	color: #696666;
+    	text-align: justify;
+    	padding: 0px 20px;
+	}
+
+	/*--------    CSS para as pÃ¡ginas de pesquisas    ----------*/
+
+	/* a partir daqui fica o modelo 2 do footer */
+	.FooterSegundoModelo {
+		background-color: #01579b;
+		color: white;
+	}
+	.espaco1 {
+		color: white;
+	}
+	.espaco2 {
+		color: white;
+	}
+	.espaco3 {
+		color: white;
+	}
+	.espaco4 {
+		color: white;
+	}
+	.recuoEsquerda {
+		color: white;
+	}
+	.icones_redes_sociais_rodape {
+		color: white;
+		margin: 1px;
+	}
+	.iconesModelo2 {
+		color: white;
+	}
+
+	/* modelo 2 do footer */
+
+	/* modelo 2 do header */
+	.novoFundoAlternativo {
+		/*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+		/*background-color: red;*/
+		
+	}
+	.novoFundoAlternativo2 {
+		/*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+		/*background-color: red;*/
+		
+	}
+	.sombraDivTopo {
+		/*background-image: url(http://www.ufc.br/templates/portal/images/bg-header.png);*/
+		
+	}
+
+	/* modelo 2 do header */
+	.GovernoFederalLogoFooter {
+		width: auto;
+		height: auto;
+		vertical-align: middle;
+		text-align: center;
+		/* margin: 0px auto 0px auto; */
+		padding: 1px;
+	}
+	.espaco5 {
+		margin-left: 0em;
+	}
+	.DiminuirrecuoEsquerda {
+		text-indent: 0px;
+	}
+	.wp-post-image {
+		width: 100%;
+		height: auto;
+	}
+	
+	.imgBrasil {
+    	width: 100%;
+	}
+
+
+	.LogoBrasil {
+		margin: auto;
+	}
+	
+	.alteracaoFooterContatos {
+		text-align: center;
+	}
+	
+	.alinhamentoCentral {
+		text-align: center;
+	}
+
+}
+
+/* ------ 768px  - final do bloco ----- */
+ 
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

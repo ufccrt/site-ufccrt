@@ -1,0 +1,144 @@
+/*fundo preto*/
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+    background: black !important;
+    color: white !important;
+}
+
+/*textos brancos*/
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+    color: white !important;
+}
+/*Links*/
+.contrast a{
+    color: yellow !important;
+}
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+/*graficos e imagens*/
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}
+/*formularios*/
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+/*DEMAIS*/
+
+.contrast ul#accessibility span, ul.ctrlAccessibility span {
+    background: none!important;
+}
+.contrast .carousel-indicators li {
+    background: black!important;
+    height: 10px!important;
+    width: 10px;
+    border: 2px solid yellow;
+}
+.contrast .carousel-indicators li.active {
+    background: yellow!important;
+   
+}
+.contrast ul.dropdown-menu {
+    background: black;
+    border: 1px white solid;
+}
+.contrast .carousel-caption.d-none.d-md-block.container h5 {
+    background: #ffff00!important;
+    color: black!important;
+}
+.contrast .carousel-caption p {
+    background:  black!important;
+    border: 2px solid yellow;
+    color: yellow!important;
+}
+.contrast section img {
+    filter: contrast(1.5) grayscale(100%)!important;
+    /* filter: contrast(1.5); */
+}
+.contrast .logos-cursos img {
+    filter: grayscale(100%) brightness(5) contrast(1) invert(0)!important;
+}
+.contrast #links-uteis img {
+    filter: grayscale(100%) brightness(1) contrast(2) invert(1)!important;
+}
+.contrast ul.acesso-rapido-thumbs {
+    filter: grayscale(100%) brightness(4) contrast(1) invert(1)!important;
+}
+
+.contrast img.img-fluid.d-block.logo_margem {
+    content: url(http://sistemas.crateus.ufc.br:8000/wordpress/wp-content/themes/ufc-oficial/imgs/logo_ufc_crateus-invert.png);
+}
+.contrast ul li {
+    border-bottom: 1px white solid;
+}
+.contrast a#altocontraste {
+    background: #fff;
+    color: black!important;
+    padding: 2px 8px;
+    font-weight: 800;
+}
+.contrast i.fas.fa-adjust {
+    color: black!important;
+}
+
+.contrast #breadcrumbs {
+    background: none!important;
+    box-shadow: none!important;
+}
+
+.contrast th, .contrast th {
+    color: #ff0;
+}
+
+.contrast td {
+    color: #fff;
+}
