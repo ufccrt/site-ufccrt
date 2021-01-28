@@ -8,7 +8,7 @@
                    <h4 class="titulos-blocos">Importante</h4>
                         <?php
                             global $post;
-                            $args = array( 'numberposts' => 1, 'cat' => 5, true );
+                            $args = array( 'numberposts' => 1, 'cat' => 7, true );
                             $myposts = get_posts( $args );
                             foreach( $myposts as $post ) : setup_postdata($post);?>
                               <div class="manchete-importante">
@@ -23,7 +23,7 @@
                    <h4 class="titulos-blocos">Destaques</h4>
                    <?php
                             global $post;
-                            $args = array( 'numberposts' => 3, 'cat' => 11, true );
+                            $args = array( 'numberposts' => 3, 'cat' => 5, true );
                             $myposts = get_posts( $args );
                             foreach( $myposts as $post ) : setup_postdata($post);?>
                               <div class="col-md-4 col-sm-6 col-12 float-left post-destaque">

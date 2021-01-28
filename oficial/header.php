@@ -22,10 +22,17 @@
     <meta name="keywords" content="Universidade Federal, UFC, Universidade Pública">
     <link rel="icon" href="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/imgs/indice.png">
 
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+    
+    <!-- Latest compiled and minified JavaScript -->
+    
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script> -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.6.4/jquery.colorbox.js" type="text/javascript"></script>
-
+        <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        
 
     <?php wp_head();?>
 
@@ -63,10 +70,11 @@
 
 
     </script>
-
+    <script src="<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/js/acessibilidade.js"></script>
 </head>
 
 <body >
+    
     <!-- BARRA DE ACESSO A INFORMAÇÃO - GOVERNO FEDERAL -->
     <div id="barra-brasil">
         <a href="http://brasil.gov.br"
@@ -118,8 +126,11 @@
             <div class="col-md-8 busca-nav">
                 <div class="col-md-12 social-link">
                     <div class="sociais">
-                        <a href="#" class="float-left"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="float-left"><i class="fab fa-instagram"></i></a>
+                        <!-- <span>redes sociais</span> -->
+                        <a href="https://www.facebook.com/ufccrateus/" class="float-left"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ufccrateus/" class="float-left"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/ufccrateus" class="float-left"><i class="fab fa-twitter"></i></a>
+                        <!-- <a href="#login" class="lrm-login"><i class="fas fa-pen-square"></i></a> -->
                     </div>
                 </div>
                 <div class="col-md-12 busca">
