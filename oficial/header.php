@@ -120,8 +120,9 @@
                 <div class="col-md-12 social-link">
                     <div class="sociais">
                         <!-- <span>redes sociais</span> -->
-                        <a href="#" class="float-left"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="float-left"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ufccrateus/" class="float-left"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ufccrateus/" class="float-left"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/ufccrateus" class="float-left"><i class="fab fa-twitter"></i></a>
                         <!-- <a href="#login" class="lrm-login"><i class="fas fa-pen-square"></i></a> -->
                     </div>
                 </div>

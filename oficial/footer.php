@@ -1,31 +1,35 @@
 <footer>
-<?php dynamic_sidebar( 'menu-de-rodape' ); ?>
+<?php 
 
+    $siteDir = "/wordpress";
+
+    dynamic_sidebar( 'menu-de-rodape' ); 
+?>
 
        <div class="container">
 
-        <div class="row">
+        <div class="row row-custom">
 
             <div class="col-md-4 footer-custom">
                 <h2 class="oculto">
-                    <a id="menu-rodape">Mais UFC</a>
+                    <a id="menu-rodape" class="title-footer">Mais UFC</a>
                 </h2>
                 <div class="m-menu">
                     <ul class="menu-rodape">
-                        <li class=""><a href="/biblioteca" class="link">Biblioteca</a></li>
-                        <li class=""><a href="/cultura-e-arte" class="link">Cultura e Arte</a></li>
-                        <li class=""><a href="/gestao-ambiental" class="link">Gestão Ambiental</a></li>
-                        <li class=""><a href="/hospitais-e-saude" class="link">Hospitais e Saúde</a>
+                        <li class=""><a href="<?php echo $siteDir;?>/biblioteca" class="link">Biblioteca</a></li>
+                        <li class=""><a href="<?php echo $siteDir;?>/cultura-e-arte" class="link">Cultura e Arte</a></li>
+                        <li class=""><a href="<?php echo $siteDir;?>/gestao-ambiental" class="link">Gestão Ambiental</a></li>
+                        <li class=""><a href="<?php echo $siteDir;?>/hospitais-e-saude" class="link">Hospitais e Saúde</a>
                         </li>
-                        <li class=""><a href="/desporto-universitario" class="link">Desporto Universitário</a>
+                        <li class=""><a href="<?php echo $siteDir;?>/desporto-universitario" class="link">Desporto Universitário</a>
                         </li>
-                        <li class=""><a href="/memoria-da-ufc" class="link">Memória da UFC</a></li>
-                        <li class=""><a href="/licitacoes" class="link">Licitações</a></li>
-                        <li class=""><a href="/noticias/noticias-e-editais-de-concursos-e-selecoes"
+                        <li class=""><a href="<?php echo $siteDir;?>/memoria-da-ufc" class="link">Memória da UFC</a></li>
+                        <li class=""><a href="<?php echo $siteDir;?>/licitacoes" class="link">Licitações</a></li>
+                        <li class=""><a href="<?php echo $siteDir;?>/noticias/noticias-e-editais-de-concursos-e-selecoes"
                                 class="link">Notícias e Editais de Concursos e Seleções</a></li>
-                        <li class="t"><a href="/editais-e-concursos/graduacao" class="link">Editais e
+                        <li class="t"><a href="<?php echo $siteDir;?>/editais-e-concursos/graduacao" class="link">Editais e
                                 Concursos</a></li>
-                        <li class=""><a href="/comunicacao-e-marketing/equipe-responsavel-e-contato"
+                        <li class=""><a href="<?php echo $siteDir;?>/comunicacao-e-marketing/equipe-responsavel-e-contato"
                                 class="link">Comunicação e Marketing</a></li>
                         <li><a class="ir-topo" href="#">Ir para o topo</a></li>
                     </ul>
@@ -34,25 +38,27 @@
 
             <div class="col-md-4 footer-custom">
                 <h2 class="oculto">
-                    <a id="menu-portal">Portal</a>
+                    <a id="menu-portal" class="title-footer">Portal</a>
                 </h2>
                 <div class="m-menu">
                     <ul>
-                        <li class="item i343 parent"><a href="/sobre-o-sitio" class="link">Sobre o sítio</a></li>
-                        <li class="item i344"><a href="/dominios-ufc-br" class="link">Dominios ufc.br</a></li>
-                        <li class="item i345"><a href="/mapa-do-sitio" class="link">Mapa do sítio</a></li>
+                        <li class="item i343 parent"><a href="<?php echo $siteDir;?>/sobre-o-sitio" class="link">Sobre o sítio</a></li>
+                        <li class="item i344"><a href="<?php echo $siteDir;?>/dominios-ufc-br" class="link">Dominios ufc.br</a></li>
+                        <li class="item i345"><a href="<?php echo $siteDir;?>/mapa-do-sitio" class="link">Mapa do sítio</a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="col-md-4 footer-custom">
 
-                <div class="endereco">
+                <div class="endereco title-footer">
                     <h2 class="oculto">Endereço</h2>
-                    <address><span class="postal">Av. da Universidade, 2853 - Benfica, Fortaleza - CE, CEP 60020-181 -
-                            <a href="https://www.google.com.br/maps/place/Av.+da+Universidade,+2853+-+Benfica,+Fortaleza+-+CE,+60020-181/@-3.7418722,-38.5409871,17z/data=!3m1!4b1!4m5!3m4!1s0x7c7491020890039:0x2abd7761d35693b2!8m2!3d-3.7418722!4d-38.5387984"
-                                class="mapa">Ver mapa</a></span> <br>
-                                <span class="tel">Fone: +55 (85) 3366-7300</span> 
+                    <address>
+                        <span class="postal">
+                            BR 226, KM 04, Lado PAR - José Rosa, Crateús-CE, CEP 63.707-800
+                        </span> <br>
+                        <span class="tel">Fone: +55 (88) 3691-9700</span> <br>
+                        <span class="email">E-mail: crateus@ufc.br</span>
                     </address>
                 </div>
                 <!-- fim da div endereco -->
@@ -68,9 +74,9 @@
 
 
         <div id="creditos">
-            <div class="container">
-                <span class="twelve columns">© 2020 <a href="http://www.sti.ufc.br" class="sti"
-                        title="Créditos">Secretaria de Tecnologia da Informação/Divisão de Portais Universitários</a>
+            <div class="container dti">
+                <span class="twelve columns">© 2021 <a href="http://sistemas.crateus.ufc.br" 
+                        title="Créditos">Divisão de Tecnologia da Informação/Divisão de Comunicação</a>
                 </span>
             </div>
         </div>

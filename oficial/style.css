@@ -257,7 +257,7 @@ ul#menu-nav-principal-2020 {
   font-weight: bolder;
 }
 input.form-control.mr-sm-2.iconePesquisaForm:hover {
-  background-color: #fff;
+  background-color: #dc353500;
 }
 input.form-control.mr-sm-2.iconePesquisaForm:focus, input.form-control.mr-sm-2.iconePesquisaForm:hover {
   width: 100%;
@@ -401,6 +401,7 @@ button.navbar-toggler.navbar-toggler-center.botão-menu-mobile {
 
 .barra-lateral-direita {
   margin-top: 50px;
+  margin-bottom: 10%;
 }
 
 /*BUSCA*/
@@ -1163,4 +1164,29 @@ ul.ctrlAccessibility span {
 }
 }
 
+.title-footer {
+  color: white !important;
+}
 
+.row-custom {
+  padding: 2% 5% 2% 0% !important;
+}
+
+.dti {
+  flex: 1;
+  align-content: center;
+  align-items: center;
+  padding: 2% 0 2% 10%;
+  width: 100% !important;
+  display: flex;
+  /*flex-flow: column-reverse; */
+}
+
+.navigation {
+  text-align: left !important;
+  padding: 0% 0 5% 0% !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  /* font-family: sans-serif; */
+  margin: 5% 0 5% 0% !important;
+}
