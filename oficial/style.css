@@ -1175,13 +1175,13 @@ input.form-control.mr-sm-2.iconePesquisaForm {
 
 }
 
-span:hover {
+/* span:hover {
   font-weight: bold;
 }
 
 span:hover {
   font-weight: bold;
-}
+} */
 
 .page {
   width: 100%;
@@ -1190,5 +1190,25 @@ span:hover {
 
 #creditos {
   padding: 2%;
-  margin: 0 26%;
+  margin: 0 23%;
 }
+
+.footer-custom {
+  margin-top: 1%
+}
+
+.postal {
+  color: #f4f1ee;
+  line-height: 1.7;
+}
+
+.tel {
+  color: white;
+  font-size: normal;
+  font-size: unset;
+}
+
+.address {
+  line-height: 1.7 !important;
+}
+

@@ -3448,7 +3448,8 @@ abbr[data-original-title] {
 address {
   margin-bottom: 1rem;
   font-style: normal;
-  line-height: inherit; }
+  line-height: 1.7; 
+}
 
 ol,
 ul,
