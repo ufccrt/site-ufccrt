@@ -61,10 +61,11 @@
 				
 			<?php } ?>
 		</div>
-		<div class="col-md-3 barra-lateral-direita">
+
+	</div>
+	<div class="col-md-3 barra-lateral-direita">
 				<?php include_once 'views/sessoes-home/acessorapido.php'; ?>
 		</div>
-	</div>
 </div>
 
 <?php get_footer(); ?>
