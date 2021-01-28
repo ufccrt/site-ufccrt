@@ -27,7 +27,7 @@ body {
   -o-background-size: cover;
   background-size: cover; 
   background-attachment: fixed;
-  background-image: url('imgs/background.jpg');
+  /* background-image: url('imgs/background.jpg'); */
   font-family: 'Montserrat', sans-serif !important;
 }
 p, h1, h2, h3, h4, h5, h6, span, a, li, section {
