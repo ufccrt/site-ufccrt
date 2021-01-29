@@ -68,21 +68,16 @@
 
             </div>
 
+            <div id="creditos">
+                <div class="container dti">
+                    <span class="twelve columns">© 2021 <a href="http://sistemas.crateus.ufc.br" 
+                            title="Créditos">Divisão de Tecnologia da Informação/Divisão de Comunicação</a>
+                    </span>
+                </div>
+            </div>
+
         </div>
         <!-- fim da div container -->
-
-
-
-        <div id="creditos">
-            <div class="container dti">
-                <span class="twelve columns">© 2021 <a href="http://sistemas.crateus.ufc.br" 
-                        title="Créditos">Divisão de Tecnologia da Informação/Divisão de Comunicação</a>
-                </span>
-            </div>
-        </div>
-    
-
-
 
 </footer>
 

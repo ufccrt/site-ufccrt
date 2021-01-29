@@ -1174,9 +1174,9 @@ ul.ctrlAccessibility span {
 
 .dti {
   flex: 1;
-  align-content: center;
-  align-items: center;
-  padding: 2% 0 2% 10%;
+  /* align-content: center; */
+  /* align-items: center; */
+  padding: 2% 0% 2% 2%;
   width: 100% !important;
   display: flex;
   /*flex-flow: column-reverse; */
