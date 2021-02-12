@@ -24,12 +24,14 @@ if data.status_code == requests.codes.ok:
         nome_servidor = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('h4').text.strip()
 
         # mais dados
-        mais_dados = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('p', {'class': 'cartaoServidorParagrafo'}).text.strip()
-        lattes_link = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('p', {'class': 'cartaoServidorParagrafo'}).find_all('a')
-        areas_atuacao = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('div', {'class': 'AreasAtuacaoProfessor'}).findAll('div', {'tagAreaAtuacao'})
+        mais_dados = (b.find('div', {'class': 'cartaoServidorInformacoes'}))\
+            .find('p', {'class': 'cartaoServidorParagrafo'}).text.strip()
+        lattes_link = (b.find('div', {'class': 'cartaoServidorInformacoes'}))\
+            .find('p', {'class': 'cartaoServidorParagrafo'}).find_all('a')
+        areas_atuacao = (b.find('div', {'class': 'cartaoServidorInformacoes'}))\
+            .find('div', {'class': 'AreasAtuacaoProfessor'}).findAll('div', {'tagAreaAtuacao'})
 
         campos_e_dados = str(mais_dados).split(':')
-        #print(json.dumps(campos_e_dados))
 
         # função
         funcao = str(campos_e_dados[1]).strip().replace('\n', '').replace('E-mail', '').replace('Função', '')
@@ -59,11 +61,27 @@ if data.status_code == requests.codes.ok:
         for at in areas_atuacao:
             areas_atuacao_professor.append(at.text)
 
+        # link do lattes
         lattes = ""
         for la in lattes_link:
             lattes = la.get('href')
 
-        registro = {'nome_professor': nome_servidor, 'lattes': lattes, 'email': email, 'funcao': funcao, 'segunda_funcao': segunda_funcao, 'areas': areas_atuacao_professor}
+        # info da foto
+        card_foto = (b.find('div', {'class': 'cartaoServidorFoto'}))\
+            .findAll('img', {'class': 'cartaoServidorFotoCantosArredondados'})
+
+        foto_src = ""
+        foto_width = 0
+        foto_height = 0
+
+        for cf in card_foto:
+            foto_src = cf.get('src')
+            foto_width = cf.get('width')
+            foto_height = cf.get('height')
+
+        registro = {'nome_professor': nome_servidor, 'lattes': lattes, 'email': email, 'funcao': funcao,
+                    'segunda_funcao': segunda_funcao, 'areas': areas_atuacao_professor, 'foto_src': foto_src,
+                    'foto_width': foto_width, 'foto_height': foto_height}
         resultados.append(registro)
 
         if i == 1:

@@ -51,7 +51,6 @@ if data.status_code == requests.codes.ok:
         else:
             email = "None"
 
-
         # info da foto
         card_foto = (b.find('div', {'class': 'cartaoServidorFoto'}))\
             .findAll('img', {'class': 'cartaoServidorFotoCantosArredondados'})
