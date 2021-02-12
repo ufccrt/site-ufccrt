@@ -34,7 +34,6 @@ if data.status_code == requests.codes.ok:
 
         # email e segundafuncao
         email = ""
-        segunda_funcao = ""
         if len(campos_e_dados) > 2:
             chk_email = campos_e_dados[2].find('@')
             if chk_email > 0:
@@ -52,7 +51,22 @@ if data.status_code == requests.codes.ok:
         else:
             email = "None"
 
-        registro = {'tae': nome_servidor, 'email': email, 'cargo': funcao}
+
+        # info da foto
+        card_foto = (b.find('div', {'class': 'cartaoServidorFoto'}))\
+            .findAll('img', {'class': 'cartaoServidorFotoCantosArredondados'})
+
+        foto_src = ""
+        foto_width = 0
+        foto_height = 0
+
+        for cf in card_foto:
+            foto_src = cf.get('src')
+            foto_width = cf.get('width')
+            foto_height = cf.get('height')
+
+        registro = {'tae': nome_servidor, 'email': email, 'cargo': funcao, 'foto_src': foto_src,
+                    'foto_width': foto_width, 'foto_height': foto_height}
         resultados.append(registro)
 
         if i == 1:
