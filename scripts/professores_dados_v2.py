@@ -23,6 +23,7 @@ if data.status_code == requests.codes.ok:
 
     blocos = ((info.find('div', {'class': 'col-md-9'})).findAll('div', {'class': 'cartaoServidorConteiner'}))
 
+    i = 1
     for b in blocos:
         nome_servidor = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('h4').text.strip()
 
@@ -30,9 +31,6 @@ if data.status_code == requests.codes.ok:
         ###resultados.append({'par': par, 'horario': horario, 'impacto': impacto})
 
         #resultados.append(nome_servidor + "\t" + parts[3])
-
-        registro = {'nome_professor': nome_servidor}
-        resultados.append(registro)
 
         ###lista_arquivo.append(str(par + ',' + horario + ',' + impacto + '\n'))
         #lista_arquivo.append(nome_servidor + "\t" + parts[3] + "\n")
@@ -49,9 +47,44 @@ if data.status_code == requests.codes.ok:
         mais_dados = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('p', {'class': 'cartaoServidorParagrafo'}).text.strip()
 
         campos_e_dados = str(mais_dados).split(':')
-        print(json.dumps(campos_e_dados))
+        #print(json.dumps(campos_e_dados))
 
-        print(json.dumps(mais_dados))
+
+        # função
+        funcao = str(campos_e_dados[1]).strip().replace('\n', '').replace('E-mail', '').replace('Função', '')
+
+        # email e segundafuncao
+        email = ""
+        segunda_funcao = ""
+        if len(campos_e_dados) > 2:
+            chk_email = campos_e_dados[2].find('@')
+            #print("===> " + str(chk_email))
+            if chk_email > 0:
+                email = str(campos_e_dados[2]).strip()\
+                    .replace('Site', '')\
+                    .replace('\n', '')\
+                    .replace('\n\n\n\u00c1rea de atua\u00e7\u00e3o', '')\
+                    .replace('\n', '')\
+                    .replace('\u00c1rea de atua\u00e7\u00e3o', '')\
+                    .replace('\n\n\u00c1rea de atua\u00e7\u00e3o', '')
+
+            else:
+                email = campos_e_dados[3]
+                segunda_funcao = str(campos_e_dados[2]).replace('\nE-mail', '')
+        else:
+            email = "None"
+            #email = campos_e_dados[2]
+
+        print(str(i) + " => " + " | " + nome_servidor + " / " + funcao + " / " + email)
+
+        registro = {'nome_professor': nome_servidor, 'email': email, 'funcao': funcao, 'segunda_funcao': segunda_funcao}
+        resultados.append(registro)
+
+        lista_arquivo.append(json.dumps(registro)+"\n")
+
+        #print(json.dumps(mais_dados))
+
+        i += 1
 
 
 #print("===> " + resultados)
