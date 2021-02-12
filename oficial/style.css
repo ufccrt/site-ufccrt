@@ -1014,7 +1014,6 @@ button.btn.btn-large.btn-block.btn-default {
   float: left;
   padding: 0 25;
   margin-bottom: 30px;
-  height: 70%
 }
 
 .dados-servidor {
@@ -1199,4 +1198,23 @@ ul.ctrlAccessibility span {
   overflow-x: hidden;
   overflow: hidden;
   padding: 0 0 10% 0;
+  
+}
+
+.container-taes {
+  flex: 1;
+  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow: hidden;
+  padding: 0 0 10% 0;
+ 
+}
+
+.card-taes {
+  height: 50%;
+}
+
+.card-docente {
+  height: 75%;
 }
