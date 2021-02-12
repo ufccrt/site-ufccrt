@@ -966,7 +966,7 @@ ul.acesso-rapido-thumbs {
   margin: 10px auto;
   border-radius: 51%;
   border: 3px #f9f9f9 solid;
-  float: left;
+  /* float: left; */
 }
 .dados-servidor h2 {
   text-align: center;
@@ -1014,6 +1014,7 @@ button.btn.btn-large.btn-block.btn-default {
   float: left;
   padding: 0 25;
   margin-bottom: 30px;
+  height: 70%
 }
 
 .dados-servidor {
@@ -1189,4 +1190,13 @@ ul.ctrlAccessibility span {
   font-weight: 300 !important;
   /* font-family: sans-serif; */
   margin: 5% 0 5% 0% !important;
+}
+
+.container-docente {
+  flex: 1;
+  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow: hidden;
+  padding: 0 0 10% 0;
 }
