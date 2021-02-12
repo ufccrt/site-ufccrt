@@ -16,7 +16,7 @@ resultados = []
 
 lista_arquivo = []
 
-arquivo = open(str('professores' + '.txt'), 'w+', encoding='UTF-8')
+arquivo = open(str('professores' + '.json'), 'w+', encoding='UTF-8')
 
 if data.status_code == requests.codes.ok:
     info = BeautifulSoup(data.text, 'html.parser')
@@ -45,6 +45,7 @@ if data.status_code == requests.codes.ok:
 
         # mais dados
         mais_dados = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('p', {'class': 'cartaoServidorParagrafo'}).text.strip()
+        areas_atuacao = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('div', {'class': 'AreasAtuacaoProfessor'}).findAll('div', {'tagAreaAtuacao'})
 
         campos_e_dados = str(mais_dados).split(':')
         #print(json.dumps(campos_e_dados))
@@ -75,17 +76,26 @@ if data.status_code == requests.codes.ok:
             email = "None"
             #email = campos_e_dados[2]
 
-        print(str(i) + " => " + " | " + nome_servidor + " / " + funcao + " / " + email)
+        #print(str(i) + " => " + " | " + nome_servidor + " / " + funcao + " / " + email)
 
-        registro = {'nome_professor': nome_servidor, 'email': email, 'funcao': funcao, 'segunda_funcao': segunda_funcao}
+        # captando areas de atuacao
+        areas_atuacao_professor = []
+        for at in areas_atuacao:
+            areas_atuacao_professor.append(at.text)
+
+        registro = {'nome_professor': nome_servidor, 'email': email, 'funcao': funcao, 'segunda_funcao': segunda_funcao, 'areas': areas_atuacao_professor}
         resultados.append(registro)
 
-        lista_arquivo.append(json.dumps(registro)+"\n")
+        print("\n")
+        if i == 1:
+            lista_arquivo.append("[")
+        lista_arquivo.append(json.dumps(registro)+",\n")
 
         #print(json.dumps(mais_dados))
 
         i += 1
 
+lista_arquivo.append("]")
 
 #print("===> " + resultados)
 
