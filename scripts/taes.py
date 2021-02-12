@@ -27,7 +27,6 @@ if data.status_code == requests.codes.ok:
         mais_dados = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('p', {'class': 'cartaoServidorParagrafo'}).text.strip()
 
         campos_e_dados = str(mais_dados).split(':')
-        #print(json.dumps(campos_e_dados))
 
         # função
         funcao = str(campos_e_dados[1]).strip().replace('\n', '').replace('E-mail', '').replace('Função', '').replace('E-Mail', '')
@@ -47,7 +46,6 @@ if data.status_code == requests.codes.ok:
 
             else:
                 email = campos_e_dados[3]
-
         else:
             email = "None"
 
@@ -71,9 +69,6 @@ if data.status_code == requests.codes.ok:
         if i == 1:
             lista_arquivo.append("[")
         lista_arquivo.append(json.dumps(registro)+",\n")
-
-        print(registro)
-        #print(campos_e_dados)
 
         i += 1
 
