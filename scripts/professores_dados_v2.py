@@ -45,6 +45,7 @@ if data.status_code == requests.codes.ok:
 
         # mais dados
         mais_dados = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('p', {'class': 'cartaoServidorParagrafo'}).text.strip()
+        lattes_link = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('p', {'class': 'cartaoServidorParagrafo'}).find_all('a')
         areas_atuacao = (b.find('div', {'class': 'cartaoServidorInformacoes'})).find('div', {'class': 'AreasAtuacaoProfessor'}).findAll('div', {'tagAreaAtuacao'})
 
         campos_e_dados = str(mais_dados).split(':')
@@ -83,7 +84,12 @@ if data.status_code == requests.codes.ok:
         for at in areas_atuacao:
             areas_atuacao_professor.append(at.text)
 
-        registro = {'nome_professor': nome_servidor, 'email': email, 'funcao': funcao, 'segunda_funcao': segunda_funcao, 'areas': areas_atuacao_professor}
+
+        lattes = ""
+        for la in lattes_link:
+            lattes = la.get('href')
+
+        registro = {'nome_professor': nome_servidor, 'lattes': lattes, 'email': email, 'funcao': funcao, 'segunda_funcao': segunda_funcao, 'areas': areas_atuacao_professor}
         resultados.append(registro)
 
         print("\n")
