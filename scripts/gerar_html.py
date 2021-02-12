@@ -37,28 +37,27 @@ for ijson in docentes_json:
     foto_height = ijson['foto_height'] if (ijson['foto_height'] != "" or ijson['foto_height'] is not None or
         ijson['foto_height'] is not object) else 150
 
-    html_areas = str("")
+    html_areas = []
     for area in ijson['areas']:
-        item_html_area = str('<span class="atuacao">$area</span>').replace('$area', area)
+        item_html_area = str('<span class="atuacao">' + area + '</span>')
 
-        html_areas = html_areas.join(str(item_html_area))
+        html_areas.append(str(item_html_area))
 
     modelo_html_docente = str('<div class="col-md-4 servidores">\n\
-        <div class="avatar-serv-prof" style="background: url(\'$foto_src\'); width: $foto_widthpx; height: $foto_heightpx"></div>\n\
+        <div class="avatar-serv-prof" style="background: url(\'' + str(foto_src) + '\'); width: ' + str(foto_width) + 'px; height: ' + str(foto_height) + 'px"></div>\n\
         <div class="dados-servidor">\n\
-            <h2>$nome_servidor</h2>\n\
-            <h4>Classe:$funcao</h4>\n\
-            <h4>Email: $email</h4>\n\
+            <h2>' + str(nome_professor) + '</h2>\n\
+            <h4>Classe: ' + str(funcao) + '</h4>\n\
+            <h4>Email: ' + str(email) + '</h4>\n\
             <h4>site: </h4>\n\
-            <a href="$lattes" target="_blank" rel="noopener"><button class="btn btn-large btn-block btn-default" type="button">Curriculo Lattes</button></a>\n\
+            <a href="' + str(lattes) + '" target="_blank" rel="noopener"><button class="btn btn-large btn-block btn-default" type="button">Curriculo Lattes</button></a>\n\
             <div class="area-prof">Área de atuação:\n\
-                $areas\
+                ' + str([iarea for iarea in html_areas])
+                              .replace('[', '').replace(']', '').replace('\'', '').replace(',', '') + "\
             </div>\n\
         </div>\n\
     </div>\n\
-    ').replace('$nome_servidor', nome_professor).replace('$funcao', funcao).replace('$email', email)\
-        .replace('$lattes', lattes).replace('$foto_src', foto_src).replace('$foto_width', foto_width) \
-        .replace('$foto_height', foto_height)
+    ")
 
     #.replace('$areas', html_areas)
 
