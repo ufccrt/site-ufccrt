@@ -5,13 +5,13 @@
             <a href="https://si3.ufc.br/sigaa/" target="_blank">SIGAA</a>
         </li>
         <li>
-            <a href="#">Calendário UFC 2020</a>
+            <a href="http://www.ufc.br/calendario-universitario/2020-ajustes-apos-aprovacao-do-ppe" target="_blank">Calendário UFC 2020</a>
         </li>
         <li>
-            <a href="#" >Concursos e Seleções</a>
+            <a href="<?php echo home_url( '/' ); ?>concurso-e-selecoes/">Concursos e Seleções</a>
         </li>
         <li>
-            <a href="#">Bolsas e auxílios</a>
+            <a href="<?php echo home_url( '/' ); ?>bolsas-e-auxilio/">Bolsas e Auxílios</a>
         </li>
         <li>
             <a href="<?php echo home_url( '/' ); ?>restaurante-universitario/cardapio-semanal/">Cardápio semanal - RU</a>
@@ -20,7 +20,7 @@
             <a href="https://agendecrateus.ufc.br/" target="_blank">Sistema Agende</a>
         </li>
         <li>
-            <a href="https://agendecrateus.ufc.br/" target="_blank">Sistema de Gestão de Befeícios</a>
+            <a href="https://sgb.crateus.ufc.br" target="_blank">Sistema de Gestão de Befeícios</a>
         </li>
         <li>
             <a href="http://crateus.ufc.br/eventos/" target="_blank">Sistema de Eventos</a>
