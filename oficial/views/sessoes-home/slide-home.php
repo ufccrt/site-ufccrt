@@ -19,7 +19,7 @@
                         <p>A startup SisBarragens, formada pelos alunos do nosso Campus é uma das 10 finalistas do Programa de Pré-aceleração Startup CE, iniciativa do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (SEBRAE-CE). (...)</p>
                     </div>
                 </a>
-            </div>
+            </div> 
             <!--FIM de cada item -->
              <!--INICIO de cada item  :   -->
              <div class="carousel-item" style="background-image:url(<?php echo home_url( '/' ); ?>wp-content/themes/ufc-oficial/imgs/slide-home/destaques/tecnologia_1.jpg)">
